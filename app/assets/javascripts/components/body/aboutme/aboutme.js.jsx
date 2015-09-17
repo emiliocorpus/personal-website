@@ -6,8 +6,8 @@ var AboutMe = React.createClass({
 					My name is Emilio and I love Andrea Lee
 				</div>
 
-				<div id="about-me-pic" className="debugger">
-					Picture container here
+				<div id="about-me-pic-container" className="debugger">
+					<img src="/assets/ecorpus.png" id="about-me-pic"/>
 				</div>
 
 				<div id="languages" className="debugger"> 
