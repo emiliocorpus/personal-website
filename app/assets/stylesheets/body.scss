@@ -5,16 +5,11 @@
 
 #body-buttons-container{
 	background-color: #BDFAFF;
-	height:100px;
 }
 
 #about-button, #projects-button, #blog-button{
 	display: inline-block;
 	text-align:center;
-	height:100%;
+	font-size: 2em;
 	width:33.33%;
-}
-
-#about-button p, #projects-button p, #blog-button p{
-	vertical-align: middle;
 }
