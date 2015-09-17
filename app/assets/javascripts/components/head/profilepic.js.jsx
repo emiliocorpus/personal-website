@@ -1,10 +1,9 @@
 var ProfilePic = React.createClass({
 	render: function() {
 		return (
-			<div className="header-pic debugger">
-				<img src="/assets/ecorpus.png" className="header-pic debugger"  />
-			</div >
+			<div id="header-pic-container">
+				<img src="/assets/ecorpus.png" id="header-pic" />
+			</div>
 		)
 	}
-
 })

@@ -1,0 +1,24 @@
+#header-container{
+	background-color: #7CE8FF;
+}
+
+#header-pic-container{
+	display:table-cell;
+	width: 15%;
+	text-align:center;
+}
+
+#header-pic{
+	border-radius: 100px;
+	width:95%;
+}
+
+#header-info{
+	display: table-cell;
+	width:85%;
+	text-align:center;
+	vertical-align: middle;
+}
+#header-info p{
+	display: inline-block;
+}

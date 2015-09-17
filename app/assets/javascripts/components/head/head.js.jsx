@@ -1,7 +1,7 @@
 var Head = React.createClass({
 	render: function () {
 		return (
-			<div className="header debugger">
+			<div id="header-container" className="debugger">
 				<ProfilePic />
 				<HeadInfo />
 			</div>
