@@ -3,6 +3,8 @@ var Page = React.createClass({
 		return (
 			<div className="debugger" id="page-container">
 				<Head />
+				<Body />
+				<Footer />
 			</div>
 		)
 	}

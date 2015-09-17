@@ -1,10 +1,10 @@
 #header-container{
 	background-color: #BDFAFF;
-	min-width: 30%;
 }
 
 #page-title{
-	text-align:center;	
+	text-align:center;
+	color: #4F79FF;	
 }
 
 #header-pic-container{
@@ -16,7 +16,7 @@
 
 #header-pic{
 	border-radius: 100px;
-	width:85%;
+	width:70%;
 }
 
 #header-info{
@@ -29,4 +29,5 @@
 	display: inline-block;
 	margin: 5% 15% 5% 15%;
 	font-size: 1em;
+	color: #4F79FF;
 }

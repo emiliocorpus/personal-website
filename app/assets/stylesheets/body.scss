@@ -1,0 +1,14 @@
+#body-container {
+	background-color: #BDFAFF;
+	margin-top: 25%;
+	height: 700px;
+}
+
+#body-buttons-container{
+	height:100px;
+}
+
+#about-button, #projects-button, #blog-button{
+	width:auto;
+	display: table-cell;
+}
