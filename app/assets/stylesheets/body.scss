@@ -1,14 +1,20 @@
 #body-container {
-	background-color: #BDFAFF;
 	margin-top: 25%;
 	height: 700px;
 }
 
 #body-buttons-container{
+	background-color: #BDFAFF;
 	height:100px;
 }
 
 #about-button, #projects-button, #blog-button{
-	width:auto;
-	display: table-cell;
+	display: inline-block;
+	text-align:center;
+	height:100%;
+	width:33.33%;
+}
+
+#about-button p, #projects-button p, #blog-button p{
+	vertical-align: middle;
 }
