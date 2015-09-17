@@ -3,7 +3,7 @@ var AboutMe = React.createClass({
 		return (
 			<div id="about-me-container" className="debugger">
 				<div id="bio"className="debugger">
-					My name is Emilio and I love Andrea Lee
+					<p>I am a full-stack web developer and <b>I am currently seeking full-time employment</b>. I would prefer any position that can provide me room to expand my technological knowledge and capacities. My current areas of expertise include Ruby on Rails and Object Oriented Javascript. </p>
 				</div>
 
 				<div id="about-me-pic-container" className="debugger">
@@ -13,8 +13,22 @@ var AboutMe = React.createClass({
 				<div id="languages" className="debugger"> 
 					<h3> Languages</h3>
 					<ul>
-						<li>Ruby on Rails</li>
+						<li>Ruby</li>
+							<ul>
+								<li>Ruby on Rails</li>
+								<li>Sinatra</li>
+							</ul>
 						<li>Javascript</li>
+							<ul>
+								<li>React.js</li>
+								<li>AJAX</li>
+								<li>Jquery</li>
+							</ul>
+						<li>SQL</li>
+							<ul>
+								<li>PostgreSQL</li>
+								<li>SQLite3</li>
+							</ul>
 						<li>Swift</li>
 					</ul>
 				</div>
@@ -43,10 +57,22 @@ var AboutMe = React.createClass({
 				<div id="skills" className="debugger">
 					<h3>Skillset</h3>
 					<ul>
-						<li>Skill #1</li>
-						<li>Skill #2</li>
-						<li>Skill #3</li>
-						<li>Skill #4</li>
+						<li>Agile Development</li>
+						<li>Test Driven Development</li>
+							<ul>
+								<li>Jasmine</li>
+								<li>Rspec</li>
+							</ul>
+						<li>Github/Git Workflow</li>
+						<li>Object Oriented Design</li>
+						<li>Mac OS X and Windows Operating Systems</li>
+						<li>Electronic Medical Records</li>
+							<ul>
+								<li>EPIC</li>
+								<li>HMED</li>
+							</ul>
+						<li>HIPAA</li>
+
 					</ul>
 				</div>
 
@@ -64,10 +90,14 @@ var AboutMe = React.createClass({
 				<div id="Tools" className="debugger">
 					<h3>Tools</h3>
 					<ul>
-						<li>Tool #1</li>
-						<li>Tool #2</li>
-						<li>Tool #3</li>
-						<li>Tool #4</li>
+						<li>Ruby on Rails</li>
+						<li>Sublime Text</li>
+						<li>Xcode</li>
+						<li>Command Line</li>
+							<ul>
+								<li>Terminal</li>
+								<li>iTerm2</li>
+							</ul>
 					</ul>
 				</div>
 
