@@ -1,0 +1,33 @@
+#header-container{
+	background-color: #BDFAFF;
+	border: 3px solid #BDFAFF;	
+}
+
+#page-title{
+	text-align:center;
+}
+
+#header-pic-container{
+	display:table-cell;
+	width: 25%;
+	text-align:center;
+	vertical-align: middle;
+}
+
+#header-pic{
+	border-radius: 100px;
+	width:70%;
+}
+
+#header-info{
+	display: table-cell;
+	width:75%;
+	text-align:center;
+	vertical-align: middle;
+}
+#header-info p{
+	display: inline-block;
+	margin: 5% 15% 5% 15%;
+	font-size: 1em;
+	color: #4F79FF;
+}

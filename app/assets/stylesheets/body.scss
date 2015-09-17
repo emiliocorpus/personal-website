@@ -1,0 +1,42 @@
+#body-container {
+	margin-top: 25%;
+	height: 700px;
+}
+
+#body-buttons-container{
+	background-color: #BDFAFF;
+}
+
+#about-button, #projects-button, #blog-button{
+	display: inline-block;
+	text-align:center;
+	font-size: 2em;
+	width:33.33%;
+	border: 2px solid #4F79FF;	
+}
+
+#about-me-container {
+	height: 650px;
+	width:90%;
+	margin: 0 auto;
+	margin-top: 8px;
+	overflow-y: scroll;
+	color: #000000;
+}
+
+#about-me-container div{
+	width:50%;
+	display:inline-block;
+	vertical-align:top;
+}
+
+#bio, #about-me-pic-container {
+	text-align:center;
+}
+
+
+
+#about-me-pic{
+	border-radius:100px;
+	width:25%;
+}
