@@ -1,6 +1,6 @@
 #body-container {
 	margin-top: 25%;
-	height: 700px;
+	position:relative;
 }
 
 #body-buttons-container{
@@ -16,11 +16,9 @@
 }
 
 #about-me-container {
-	height: 650px;
 	width:90%;
 	margin: 0 auto;
-	margin-top: 8px;
-	overflow-y: scroll;
+	margin-top: 2%;
 	color: #000000;
 }
 

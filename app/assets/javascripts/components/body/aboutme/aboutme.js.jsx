@@ -13,6 +13,7 @@ var AboutMe = React.createClass({
 				<div id="languages" className="debugger"> 
 					<h3> Languages</h3>
 					<ul>
+						<li>HTML/CSS</li>
 						<li>Ruby</li>
 							<ul>
 								<li>Ruby on Rails</li>
