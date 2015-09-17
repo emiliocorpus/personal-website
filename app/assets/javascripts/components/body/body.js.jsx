@@ -3,6 +3,7 @@ var Body = React.createClass({
 		return(
 			<div id="body-container" className="debugger">
 				<BodyButtons />
+				<AboutMe />
 			</div>
 		)
 	}
