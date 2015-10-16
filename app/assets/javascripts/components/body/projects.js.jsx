@@ -1,9 +1,12 @@
 var ProjectsButton = React.createClass({
 	render: function() {
 		return (
-			<div id="projects-button" className="debugger">
+			<a href="#projects" id="projects-button" className="debugger" onClick={this.handleClick}>
 				Projects
-			</div>
+			</a>
 		)
+	},
+	handleClick: function () {
+		event.preventDefault()
 	}
 })

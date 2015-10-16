@@ -6,13 +6,23 @@
 #body-buttons-container{
 	background-color: #BDFAFF;
 }
+#body-buttons-container a:link, #body-buttons-container a:visited,{
+	text-decoration: none;
+	color: #4F79FF;
+}
+
+#body-buttons-container a:hover {
+	background-color:#8EEDE6;
+}
+
 
 #about-button, #projects-button, #blog-button{
 	display: inline-block;
 	text-align:center;
 	font-size: 2em;
 	width:33.33%;
-	border: 2px solid #4F79FF;	
+	border: 2px solid #4F79FF;
+
 }
 
 #about-me-container {

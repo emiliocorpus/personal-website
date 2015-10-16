@@ -59,6 +59,7 @@ var AboutMe = React.createClass({
 					<h3>Skillset</h3>
 					<ul>
 						<li>Agile Development</li>
+						<li> Peer Programmiing</li>
 						<li>Test Driven Development</li>
 							<ul>
 								<li>Jasmine</li>
@@ -78,12 +79,12 @@ var AboutMe = React.createClass({
 				</div>
 
 				<div id="Goals" className="debugger">
-					<h3>Goals</h3>
+					<h3>My Summary</h3>
 					<ul>
-						<li>Goal #1</li>
-						<li>Goal #2</li>
-						<li>Goal #3</li>
-						<li>Goal #4</li>
+						<li>Life-long learner</li>
+						<li>Compassionate worker</li>
+						<li>Family-oriented</li>
+						<li>Open Source advocate </li>
 
 					</ul>
 				</div>
@@ -105,10 +106,10 @@ var AboutMe = React.createClass({
 				<div id="Quirks" className="debugger">
 					<h3>Quirks</h3>
 					<ul>
-						<li>Quirk #1</li>
-						<li>Quirk #2</li>
-						<li>Quirk #3</li>
-						<li>Quirk #4</li>
+						<li>Avid Ukulele Player</li>
+						<li>Basketball Enthusiast</li>
+						<li>Die-hard Raider Fan</li>
+						<li>Netflix Veteran</li>
 					</ul>
 				</div>
 

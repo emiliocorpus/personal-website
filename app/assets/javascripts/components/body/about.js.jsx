@@ -1,9 +1,12 @@
 var AboutMeButton = React.createClass({
 	render: function() {
 		return (
-			<div id="about-button" className="debugger">
+			<a href="#about" id="about-button" className="debugger" onClick={this.handleClick}>
 				About
-			</div>
+			</a>
 		)
+	},
+	handleClick: function() {
+		event.preventDefault()
 	}
 })

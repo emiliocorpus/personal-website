@@ -1,9 +1,13 @@
 var BlogButton = React.createClass({
 	render: function () {
 		return (
-			<div id="blog-button" className="debugger">
+			<a href="#blogs" id="blog-button" className="debugger" onClick={this.handleClick}>
 				Blogs
-			</div>
+			</a>
 		)
+	},
+	handleClick: function() {
+		event.preventDefault()
 	}
+
 })
