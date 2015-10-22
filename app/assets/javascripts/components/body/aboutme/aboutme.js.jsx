@@ -8,14 +8,7 @@ var AboutMe = React.createClass({
 
 				<div id="about-me-pic-container" className="debugger">
 					<img src="/assets/ecorpus.png" id="about-me-pic"/>
-					<div id="contact-images-container">
-						<img src="/assets/twitter-icon.png" id="twitter-icon"/>
-						<img src="/assets/linkedin-icon.png" id="linkedin-icon"/>
-						<img src="/assets/github-icon.png" id="github-icon"/>
-					</div>
 				</div>
-
-
 
 				<div id="languages" className="debugger"> 
 					<h3> Languages</h3>
@@ -86,7 +79,13 @@ var AboutMe = React.createClass({
 				</div>
 
 				<div id="Goals" className="debugger">
+
 					<h3>My Summary</h3>
+						<div id="contact-images-container" className="debugger">
+							<img src="/assets/twitter-icon.png" id="twitter-icon"/>
+							<img src="/assets/linkedin-icon.png" id="linkedin-icon"/>
+							<img src="/assets/github-icon.png" id="github-icon"/>
+						</div>
 					<ul>
 						<li>Life-long learner</li>
 						<li>Compassionate worker</li>

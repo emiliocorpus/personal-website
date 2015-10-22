@@ -15,8 +15,8 @@
 	background-color:#8EEDE6;
 }
 #contact-images-container img {
-	height: 50px;
-	width: 50px;
+	height: 15px;
+	width: 15px;
 }
 
 
@@ -42,8 +42,18 @@
 	vertical-align:top;
 }
 
+
+#contact-images-container{
+	text-align:center;
+}
+
+#contact-images-container img{
+	margin: 30px;
+}
+
 #bio, #about-me-pic-container {
 	text-align:center;
+	display:inline-block;
 }
 
 
