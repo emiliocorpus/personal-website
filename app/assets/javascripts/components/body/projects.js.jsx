@@ -1,7 +1,7 @@
 var ProjectsButton = React.createClass({
 	render: function() {
 		return (
-			<a href="#projects" id="projects-button" className="debugger" onClick={this.handleClick}>
+			<a href="#body-container" id="projects-button" className="debugger" onClick={this.handleClick}>
 				Projects
 			</a>
 		)

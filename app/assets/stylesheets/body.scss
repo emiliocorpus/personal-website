@@ -19,6 +19,10 @@
 	width: 10%;
 }
 
+#page-container hr{
+
+}
+
 
 #about-button, #projects-button, #blog-button{
 	display: inline-block;
@@ -63,8 +67,11 @@
 	display:inline-block;
 }
 
-
 #about-me-pic{
 	border-radius:100px;
 	width:45%;
+}
+
+#body-container {
+	background-color: white;
 }

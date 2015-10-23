@@ -24,6 +24,10 @@ html {
    -moz-box-sizing: inherit;
    box-sizing: inherit;
 }
+
+hr {
+   color:#7C8781;
+}
 body{
 	margin: 0;
 	padding: 0;
