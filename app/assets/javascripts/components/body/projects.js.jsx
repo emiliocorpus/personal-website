@@ -8,5 +8,7 @@ var ProjectsButton = React.createClass({
 	},
 	handleClick: function () {
 		event.preventDefault()
+		this.props.receiveClick("projects")
+
 	}
 })

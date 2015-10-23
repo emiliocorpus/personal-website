@@ -8,6 +8,8 @@ var BlogButton = React.createClass({
 	},
 	handleClick: function() {
 		event.preventDefault()
+		this.props.receiveClick("blogs")
+
 	}
 
 })

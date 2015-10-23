@@ -8,5 +8,6 @@ var AboutMeButton = React.createClass({
 	},
 	handleClick: function() {
 		event.preventDefault()
+		this.props.receiveClick("about")
 	}
 })
