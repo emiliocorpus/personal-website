@@ -68,12 +68,6 @@ var AboutMe = React.createClass({
 					</ul>
 				</div>
 
-				<div id="experience" className="debugger">
-					<h3> Experience </h3>
-					<ul>
-						
-					</ul>
-				</div>
 
 				<div id="skills" className="debugger">
 					<h3>Skillset</h3>
