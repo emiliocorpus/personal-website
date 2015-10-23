@@ -73,7 +73,7 @@ var AboutMe = React.createClass({
 					<h3>Skillset</h3>
 					<ul>
 						<li>Agile Development</li>
-						<li> Peer Programmiing</li>
+						<li>Experienced Peer Programmer</li>
 						<li>Test Driven Development</li>
 							<ul>
 								<li>Jasmine</li>
