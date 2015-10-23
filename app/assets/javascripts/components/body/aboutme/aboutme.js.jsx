@@ -3,11 +3,24 @@ var AboutMe = React.createClass({
 		return (
 			<div id="about-me-container" className="debugger">
 				<div id="bio"className="debugger">
-					<p>I am a full-stack web developer and <b>I am currently seeking full-time employment</b>. I would prefer any position that can provide me room to expand my technological knowledge and capacities. My current areas of expertise include Ruby on Rails and Object Oriented Javascript. </p>
+					<p>I am a full-stack web developer and <b>am currently seeking full-time employment</b>. I would prefer any position that can provide me room to expand my technological knowledge and capacities. My current areas of expertise include Ruby on Rails and Object Oriented Javascript. </p>
 				</div>
 
-				<div id="about-me-pic-container" className="debugger">
-					<img src="/assets/ecorpus.png" id="about-me-pic"/>
+				<div id="about-me-contact-container">
+					<div id="contact-images-container" className="debugger">
+						<a href="http://www.twitter.com/uh_mili_oh">
+							<img src="/assets/twitter-icon.png" id="twitter-icon"/>
+						</a>
+						<a href="https://www.linkedin.com/in/emiliocorpus">
+							<img src="/assets/linkedin-icon.png" id="linkedin-icon"/>
+						</a>
+						<a href="http://www.github.com/emiliocorpus">
+							<img src="/assets/github-icon.png" id="github-icon"/>
+						</a>
+					</div>
+					<div id="about-me-pic-container" className="debugger">
+						<img src="/assets/ecorpus.png" id="about-me-pic"/>
+					</div>
 				</div>
 
 				<div id="languages" className="debugger"> 
@@ -55,6 +68,13 @@ var AboutMe = React.createClass({
 					</ul>
 				</div>
 
+				<div id="experience" className="debugger">
+					<h3> Experience </h3>
+					<ul>
+						
+					</ul>
+				</div>
+
 				<div id="skills" className="debugger">
 					<h3>Skillset</h3>
 					<ul>
@@ -81,17 +101,15 @@ var AboutMe = React.createClass({
 				<div id="Goals" className="debugger">
 
 					<h3>My Summary</h3>
-						<div id="contact-images-container" className="debugger">
-							<img src="/assets/twitter-icon.png" id="twitter-icon"/>
-							<img src="/assets/linkedin-icon.png" id="linkedin-icon"/>
-							<img src="/assets/github-icon.png" id="github-icon"/>
-						</div>
+					
 					<ul>
+						<li>Experience Peer Progammer</li>
 						<li>Life-long learner</li>
+						<li>Highly Receptive to Criticism</li>
+						<li>Highly Adaptable</li>
 						<li>Compassionate worker</li>
 						<li>Family-oriented</li>
 						<li>Open Source advocate </li>
-
 					</ul>
 				</div>
 
@@ -114,6 +132,7 @@ var AboutMe = React.createClass({
 					<ul>
 						<li>Avid Ukulele Player</li>
 						<li>Basketball Enthusiast</li>
+						<li>Road bike Newbie</li>
 						<li>Die-hard Raider Fan</li>
 						<li>Netflix Veteran</li>
 					</ul>
