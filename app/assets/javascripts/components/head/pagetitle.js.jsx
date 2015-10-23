@@ -3,7 +3,7 @@ var PageTitle = React.createClass({
 		return (
 			<div id="page-title" className="debugger">
 				<h1>EMILIO CORPUS</h1>
-				<span>Full-Stack Freelance Web Developer | Looking for <b>full-time Employment</b> </span>
+				<h3>Freelance Web Developer | Seeking Employment</h3>
 			</div>
 		)
 	}

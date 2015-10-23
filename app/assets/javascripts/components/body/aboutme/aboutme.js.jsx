@@ -3,7 +3,7 @@ var AboutMe = React.createClass({
 		return (
 			<div id="about-me-container" className="debugger">
 				<div id="bio"className="debugger">
-					<p>I am a full-stack web developer and <b>am currently seeking full-time employment</b>. I would prefer any position that can provide me room to expand my technological knowledge and capacities. My current areas of expertise include Ruby on Rails and Object Oriented Javascript. </p>
+					<p>I am a full-stack web developer and <b>I am currently seeking full-time employment</b>. I would prefer any position that can provide me room to expand my technological knowledge and capacities. My current areas of expertise include Ruby on Rails and Object Oriented Javascript. </p>
 				</div>
 
 				<div id="about-me-contact-container">
@@ -23,105 +23,117 @@ var AboutMe = React.createClass({
 					</div>
 				</div>
 
-				<div id="languages" className="debugger"> 
+				<div id="languages" className="debugger about-section"> 
 					<h3> Languages</h3>
 					<ul>
-						<li>HTML/CSS</li>
-						<li>Ruby</li>
-							<ul>
-								<li>Ruby on Rails</li>
-								<li>Sinatra</li>
-							</ul>
-						<li>Javascript</li>
+						<li><b>HTML5/CSS3</b></li>
+						<li><b>Javascript</b></li>
 							<ul>
 								<li>React.js</li>
 								<li>AJAX</li>
 								<li>Jquery</li>
 							</ul>
+						<li>Ruby</li>
+							<ul>
+								<li>Ruby Gems</li>
+								<li><b>Ruby on Rails</b></li>
+								<li>Sinatra</li>
+							</ul>
 						<li>SQL</li>
 							<ul>
-								<li>PostgreSQL</li>
-								<li>SQLite3</li>
+								<li><b>PostgreSQL</b></li>
+								<li><b>SQLite3</b></li>
 							</ul>
 						<li>Swift</li>
 					</ul>
 				</div>
 					
-				<div id="education" className="debugger">
+				<div id="education" className="debugger about-section">
 					<h3> Education </h3>
 					<ul>
-						<li>
-							<u>University of California: Irvine</u><br/>
-							Degree:<em> Bachelors of Science - Biology</em>
-						</li>
-
 						<li><u>Dev Bootcamp</u><br />
 							Emphasis:<br/>
 							<ul>
-								<li> Ruby On Rails</li>
+								<li>Ruby On Rails</li>
 								<li>Object Oriented Design</li>
 								<li>Javascript</li>
 								<li>Test Driven Development</li>
 							</ul>
 						</li>
+						<li>
+							<u>University of California: Irvine</u><br/>
+							Degree:<em> Bachelors of Science - Biology</em><br/>
+							Emphasis:<br/>
+							<ul>
+								<li>Human Anatomy/Physiology</li>
+								<li>Molecular Biology</li>
+								<li>Ecology</li>
+								<li>Genetics</li>
+								<li>Organic Chemistry</li>
+							</ul>
+						</li>
+
 
 					</ul>
 				</div>
 
 
-				<div id="skills" className="debugger">
+				<div id="skills" className="debugger about-section">
 					<h3>Skillset</h3>
 					<ul>
+						<li>Object Oriented Design</li>
+						<li>Pseudocode</li>
 						<li>Agile Development</li>
-						<li>Experienced Peer Programmer</li>
+						<li>Peer Programming</li>
 						<li>Test Driven Development</li>
 							<ul>
 								<li>Jasmine</li>
 								<li>Rspec</li>
 							</ul>
 						<li>Github/Git Workflow</li>
-						<li>Object Oriented Design</li>
+						<li>Heroku Toolbelt</li>
 						<li>Mac OS X and Windows Operating Systems</li>
+						<li>Sublime Text Shortcuts</li>
+						<li>Command Line Shortcuts</li>
+							<ul>
+								<li>Terminal</li>
+								<li>iTerm2</li>
+							</ul>
 						<li>Electronic Medical Records</li>
 							<ul>
 								<li>EPIC</li>
 								<li>HMED</li>
 							</ul>
-						<li>HIPAA</li>
+						<li>Patient Confidentiality/HIPAA</li>
 
 					</ul>
 				</div>
 
-				<div id="Goals" className="debugger">
+				<div id="summary" className="debugger about-section">
 
-					<h3>My Summary</h3>
+					<h3>Summary</h3>
 					
 					<ul>
-						<li>Experience Peer Progammer</li>
-						<li>Life-long learner</li>
+						<li>Experienced Peer Progammer</li>
+						<li>Empathetic Engineering</li>
 						<li>Highly Receptive to Criticism</li>
-						<li>Highly Adaptable</li>
+						<li>Easily adaptable</li>
 						<li>Compassionate worker</li>
 						<li>Family-oriented</li>
-						<li>Open Source advocate </li>
+						<li>Open Source Advocate </li>
 					</ul>
 				</div>
 
-				<div id="Tools" className="debugger">
-					<h3>Tools</h3>
+				<div id="experiences" className="debugger about-section">
+					<h3>Experiences</h3>
 					<ul>
-						<li>Ruby on Rails</li>
-						<li>Sublime Text</li>
-						<li>Xcode</li>
-						<li>Command Line</li>
-							<ul>
-								<li>Terminal</li>
-								<li>iTerm2</li>
-							</ul>
+						<li>John Muir Health Center</li>
+						<li>DevBootamp</li>
+						
 					</ul>
 				</div>
 
-				<div id="Quirks" className="debugger">
+				<div id="Quirks" className="debugger about-section">
 					<h3>Quirks</h3>
 					<ul>
 						<li>Avid Ukulele Player</li>
