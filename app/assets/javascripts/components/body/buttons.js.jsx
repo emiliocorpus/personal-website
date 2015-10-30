@@ -25,13 +25,13 @@ var Buttons = React.createClass({
 	render: function() {
 			var partial
 			if (this.state.currentPage==="about"){
-				partial = <AboutMe />
+				partial = <AboutMeContainer />
 			}
 			else if (this.state.currentPage==="blogs"){
-				partial = <Blogs />
+				partial = <BlogsContainer />
 			}
 			else {
-				partial = <Projects />
+				partial = <ProjectsContainer />
 			}
 	return (
 			<div>

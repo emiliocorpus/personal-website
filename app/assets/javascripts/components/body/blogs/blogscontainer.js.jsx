@@ -1,4 +1,4 @@
-var Blogs = React.createClass({
+var BlogsContainer = React.createClass({
 	render: function(){
 		return (
 			<div id="blogs-container" className="debugger">

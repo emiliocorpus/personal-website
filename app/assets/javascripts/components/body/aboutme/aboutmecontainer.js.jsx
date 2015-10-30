@@ -1,4 +1,4 @@
-var AboutMe = React.createClass({
+var AboutMeContainer = React.createClass({
 	render: function() {
 		return (
 			<div id="about-me-container" className="debugger">
