@@ -24,7 +24,7 @@ var Blogs = React.createClass({
 		var blogsHolder = []
 		if (this.state.blogs !== undefined) {
 			blogs.map(function(index, el) {
-				var blog = < Blog data={blogs[el]} />
+				var blog = < Blog data={blogs[el]} key={blogs[el].id}/>
 				blogsHolder.push(blog)
 			})
 		}

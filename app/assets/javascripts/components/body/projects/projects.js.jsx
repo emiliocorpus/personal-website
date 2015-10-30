@@ -24,7 +24,7 @@ var Projects = React.createClass({
 		var projectsHolder = []
 		if (this.state.projects !== undefined) {
 			projects.map(function(index, el) {
-				var project = <Project data={projects[el]} />
+				var project = <Project data={projects[el]} key={projects[el].id} />
 				projectsHolder.push(project)
 			})
 		}
