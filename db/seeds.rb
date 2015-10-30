@@ -7,7 +7,13 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Project.create(
-	title: 'Polisee',
+	title: 'Polisee.io',
 	description: "Polisee is a coupled web application that utilizes Ruby on Rails in the backend with a PostgreSQL database. The backend also integrates the Sunlight Foundation API to provide Polisee the data on US representatives and bills. It uses twitter api's 3-legged oauth for user creation and authentication. On top of HTML5 and CSS3, the structure of the frontend was built with the React.js library and styled with Materialize.css. Polisee also uses Charts.JS to display the amounts donated to a particular representative. Lastly, it also uses the Twilio API for it's text message notifications when a user follows a certain bill. ",
 	url: 'https://www.polisee.io'
+)
+
+Project.create(
+	title: 'emiliocorpus.com',
+	description: "My personal website create with Ruby on Rails and React.js in a coupled fashion. The page functions as a single-page web application that contains information about myself, past/current projects, and all of my blogs!"),
+	url: "https://www.emiliocorpus.com"
 )
