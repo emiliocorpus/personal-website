@@ -14,6 +14,6 @@ Project.create(
 
 Project.create(
 	title: 'emiliocorpus.com',
-	description: "My personal website create with Ruby on Rails and React.js in a coupled fashion. The page functions as a single-page web application that contains information about myself, past/current projects, and all of my blogs!"),
+	description: "My personal website create with Ruby on Rails and React.js in a coupled fashion. The page functions as a single-page web application that contains information about myself, past/current projects, and all of my blogs!",
 	url: "https://www.emiliocorpus.com"
 )

@@ -10,6 +10,7 @@ var Projects = React.createClass({
 	    dataType: 'json',
 	    cache: false,
 	    success: function(data) {
+	    	console.log(data.length)
 	        this.setState({projects: data})
 	    }.bind(this),
 	    error: function(xhr, status, err) {
@@ -18,10 +19,22 @@ var Projects = React.createClass({
 	    }.bind(this)
 	  });
 	},
+	loadCheck:function () {
+		var projects = this.state.projects
+		var projectsHolder = []
+		if (this.state.projects !== undefined) {
+			projects.map(function(index, el) {
+				var project = <Project data={projects[el]} />
+				projectsHolder.push(project)
+			})
+		}
+		return projectsHolder
+	},
 	render: function() {
+		var loadedProjects = this.loadCheck()
 		return (
 			<div>
-				{this.state.projects}
+				{loadedProjects}
 			</div>
 		)
 	}
