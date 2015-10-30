@@ -58,6 +58,8 @@ var AboutMe = React.createClass({
 								<li>Object Oriented Design</li>
 								<li>Javascript</li>
 								<li>Test Driven Development</li>
+								<li>Peer Programming/Empathetic Engineering</li>
+								<li>Problem Solving Strategies</li>
 							</ul>
 						</li>
 						<li>

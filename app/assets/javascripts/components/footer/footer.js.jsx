@@ -4,8 +4,9 @@ var Footer = React.createClass({
 			<div id="footer-container" className="debugger">
 				<br />
 				<hr />
-					<p className="debugger">&copy; 2015 Emilio Corpus</p>
-				<hr />
+					<p className="debugger">&copy; 2015 Emilio Corpus | Built with Ruby on Rails and React.js</p>
+				<hr /> 
+
 			</div>
 		)
 	}
