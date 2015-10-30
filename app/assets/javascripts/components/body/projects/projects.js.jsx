@@ -34,7 +34,9 @@ var Projects = React.createClass({
 		var loadedProjects = this.loadCheck()
 		return (
 			<div>
+				<br />
 				{loadedProjects}
+				<br />
 			</div>
 		)
 	}

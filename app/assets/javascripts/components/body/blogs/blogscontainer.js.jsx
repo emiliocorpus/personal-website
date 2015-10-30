@@ -3,7 +3,7 @@ var BlogsContainer = React.createClass({
 		return (
 			<div id="blogs-container" className="debugger">
 				<div>
-				these are Blogs.
+					< Blogs />
 				</div>
 			</div>
 		)

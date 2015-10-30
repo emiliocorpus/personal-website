@@ -17,3 +17,9 @@ Project.create(
 	description: "My personal website create with Ruby on Rails and React.js in a coupled fashion. The page functions as a single-page web application that contains information about myself, past/current projects, and all of my blogs!",
 	url: "https://www.emiliocorpus.com"
 )
+
+
+Blog.create(
+	title: "sample blog",
+	content: "This is sample content. This is sample content. This is sample content. This is sample content. This is sample content. This is sample content. This is sample content. This is sample content. This is sample content. This is sample content. This is sample content. This is sample content."
+)
