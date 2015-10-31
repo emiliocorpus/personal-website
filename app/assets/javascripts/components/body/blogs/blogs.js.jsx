@@ -7,7 +7,7 @@ var Blogs = React.createClass({
 
 	handleLoad: function() {
 	  $.ajax({
-	    url: '/blogs',
+	    url: 'http://www.emiliocorpus.com/blogs',
 	    dataType: 'json',
 	    cache: false,
 	    success: function(data) {
