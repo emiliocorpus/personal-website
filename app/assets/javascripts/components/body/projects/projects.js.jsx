@@ -6,7 +6,7 @@ var Projects = React.createClass({
 	},
 	handleLoad: function() {
 	  $.ajax({
-	    url: 'http://www.emiliocorpus.com/projects',
+	    url: '/projects',
 	    dataType: 'json',
 	    cache: false,
 	    success: function(data) {
