@@ -1,6 +1,11 @@
 #body-container {
-	margin-top: 25%;
+	margin-top: 10%;
 	position:relative;
+}
+
+#content-container {
+	height: 625px;
+	background-color:#CBCBCB;
 }
 
 #buttons-container{
@@ -30,7 +35,6 @@
 	font-size: 2.3em;
 	width:33.33%;
 	border: 2px solid #4F79FF;
-
 }
 
 
@@ -38,11 +42,14 @@
 	vertical-align: middle ;
 }
 
-#about-me-container {
-	width:90%;
+#about-me-container, #projects-container, #blogs-container {
+	background-color:white;
+	padding:50px;
+	width:80%;
+	height:600px;
 	margin: 0 auto;
-	margin-top: 2%;
 	color: #000000;
+	overflow-y:auto;
 }
 
 #about-me-container div{
@@ -50,7 +57,6 @@
 	display:inline-block;
 	vertical-align:top;
 }
-
 
 #contact-images-container{
 	text-align:center;
@@ -69,9 +75,13 @@
 
 #about-me-pic{
 	border-radius:100px;
-	width:45%;
+	width:65%;
 }
 
 #body-container {
 	background-color: white;
+}
+
+.experience {
+	list-style-type:none;
 }

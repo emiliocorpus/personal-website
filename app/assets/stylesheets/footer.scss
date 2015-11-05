@@ -1,12 +1,26 @@
 #footer-container{
 	background-color: #BDFAFF;
 	position:relative;
-	margin-top: 100px;
-	height:100px;
+	margin-top: 150px;
+	height:200px;
 	text-align:center;
 }
 
-#footer-container p i{
-	color:#FF0000;
+#footer-container div p {
+	position:relative;
+	margin-top: 50px;
+}
+
+#footer-container div p i{
+	color:#BABABA;
 	font-size: 12px;
+}
+
+#footer-container div {
+	position:absolute;
+	bottom: 0;
+	height:100px;
+	width: 100%;
+	background-color: #606060;
+	color: white;
 }

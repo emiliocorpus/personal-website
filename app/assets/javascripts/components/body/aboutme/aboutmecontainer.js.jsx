@@ -130,6 +130,12 @@ var AboutMeContainer = React.createClass({
 					<h3>Experiences</h3>
 					<ul>
 						<li>John Muir Health Center</li>
+								<ul>
+									<li className="experience">Emergency Room Medical Scribe</li>
+									<ul>
+										<li className="experience">Help increase emergency room efficiency by completing physician charts</li>
+									</ul>
+								</ul>
 						<li>DevBootamp</li>
 						
 					</ul>
