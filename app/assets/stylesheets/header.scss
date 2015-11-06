@@ -2,5 +2,25 @@
 	background-color:#8EBFDF;
 	width:100%;
 	height:100px;
-	
+	color:white;
+	display:table;
+}
+
+#header-title, #header-subtitle {
+	display:table-cell;
+}
+
+#header-title {
+	text-align:center;
+	vertical-align: middle;
+	font-size:80px;
+	font-family: 'BANGERS', cursive;;
+	width:50%;
+	-webkit-text-stroke: 2px #4F79FF;
+}
+
+#header-subtitle {
+	vertical-align: middle;
+	font-size:20px;
+	margin-left:5%;
 }
