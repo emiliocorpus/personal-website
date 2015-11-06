@@ -2,7 +2,7 @@ var Projects = React.createClass({
 	render:function() {
 		return (
 			<div id="projects-container" className="debugger">
-				<h3>My Projects</h3>
+				<u><h1>My Projects</h1></u>
 				<p>I APOLOGIZE, THIS AREA IS CURRENTLY UNDER CONSTRUCTION, PLEASE COME BACK AT A LATER TIME, THANK YOU!</p>
 			</div>
 		)

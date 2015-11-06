@@ -1,7 +1,6 @@
 var BlogsButton = React.createClass({
 	handleClick:function() {
 		event.preventDefault()
-		debugger
 		this.props.click("blogs")
 	},
 	render:function() {
