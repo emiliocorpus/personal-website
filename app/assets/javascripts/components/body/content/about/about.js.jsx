@@ -2,7 +2,7 @@ var About = React.createClass({
 	render:function() {
 		return (
 			<div id="about-me-container" className="debugger">
-				<u><h1>About Me</h1></u>
+				<h1>About Me</h1>
 				<div id="about">I am a <em>full-stack, <b>freelance</b>, web developer</em> and I am <b>currently seeking full-time employment</b>. I am interested in any position that can allow me to grow and increase my budding programming knowledge. My ultimate goal is to become a senior-level software engineer but I am open to exploring different avenues and experiences along the way! My current areas of expertise include <em><b>Ruby on Rails</b></em> and <em><b>Object Oriented Javascript</b></em>. I am easily adaptable and able to learn things fairly quick (I started web development in early 2015). I consided myself to be a compassionate worker and am very family-oriented.
 
 					<p>Outside of coding and builing web-apps, I am an avid ukulele player, basketball enthusiast, die-hard Raider fan, and a well-seasoned Netflix veteran!</p>
