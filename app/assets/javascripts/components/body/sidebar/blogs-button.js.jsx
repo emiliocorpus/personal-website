@@ -6,7 +6,7 @@ var BlogsButton = React.createClass({
 	render:function() {
 		return(
 			<div className="debugger sidebar-button">
-				<a href="#" onClick={this.handleClick}>Blogs</a>
+				<a href="#" className="button-link" onClick={this.handleClick}>Blogs</a>
 			</div>
 		)
 	}
