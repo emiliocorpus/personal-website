@@ -13,8 +13,7 @@ var Page = React.createClass({
 		return (
 			<div id="page-container">
 				<Header />
-				<Sidebar handleClick={this.receiveClick} />
-				<Content displayedContent = {this.state.currentContent} />
+				<Body />
 				<Footer />
 			</div>
 		)

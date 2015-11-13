@@ -1,55 +1,52 @@
-#content-container {
-	display:inline-block;
-	height: 1000px;
-	width: 75%;
-	vertical-align: top;
-	margin-top:100px;
-	margin-left: 5%;
-	font-family: 'Philosopher', sans-serif;
+#body-container {
+   height: 2000px;
 }
 
-#about-me-container, #projects-container, #blogs-container {
-	width: 95%;
-	border: 3px double black;
-	background-color:white;
-	padding: 2.5%;
-	box-shadow: 7px 7px 7px #727272;
+#about-me-container{
+   margin:0 auto;
+   text-align:center;
+   padding-top:5%;
+   padding-bottom:10%;
+   height: 550px;
 }
 
-#about-me-container #about {
-	color: black;
+.body-section {
+   background-color: #8EBFDF;
+   width:100%;
+   border:1px solid white;
 }
 
-#about-me-container h1, #blogs-container h1, #projects-container h1 {
-	font-size:45px;
-	color:#358BFF;
-	font-family: 'Anton', sans-serif;
+.body-section hr{
+   width:350px;
+   height:4px;
+   color: #FFF;
+   background-color: #FFF;
 }
 
-#about-table {
-	width:100%;
-	height:500px;
-	overflow-y: auto;
-	margin-top:5%;
+.section-title {
+   color: white;
+   font-size: 3.7em;
+   text-shadow: 1px 1px 1px black;
+   width: 50%;
+   margin: 0 auto;
 }
 
-#about-table div {
-	font-size:15px;
-	color:black;
-	display:inline-block;
-	width:50%;
-	padding-left: 4%;
-	padding-right: 4%;
-	padding-top:2%;
-	vertical-align:top;
-
+#profile-pic-container{
+   display:inline-block;
+   width:10%;
+   margin-right:50px;
 }
 
-#about-table h3{
-	color: #4F79FF;
+#profile-pic-container img{
+   width:100%;
+   border-radius:100px;
 }
 
-.list-style-none {
-	list-style: none ;
-
+#about {
+   display:inline-block;
+   vertical-align: top;
+   width:70%;
+   font-size: 1.5em;
+   color: white;
+   padding:20px;
 }
