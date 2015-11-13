@@ -1,4 +1,7 @@
 var Header = React.createClass({
+	receiveClick:function(){
+		this.props.handleClick()
+	},
 	render:function(){
 		return (
 			<div id="header-container" className="debugger">
@@ -6,7 +9,7 @@ var Header = React.createClass({
 					<HeaderName />
 					<HeaderDescription />
 				</div>
-				<LearnMore />
+				<LearnMore sendClick={this.receiveClick} />
 			</div>
 		)
 	}

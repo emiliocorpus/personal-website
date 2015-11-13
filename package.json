@@ -1,0 +1,13 @@
+{
+  "name": "my-website",
+  "dependencies": {
+    "browserify": "^10.2.6",
+    "browserify-incremental": "^3.0.1",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "reactify": "^1.1.1"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  }
+}

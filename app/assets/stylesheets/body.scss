@@ -1,5 +1,5 @@
-#body-container {
-   height: 2000px;
+#body-container{
+   height: 4000px;
 }
 
 #about-me-container{
@@ -50,3 +50,49 @@
    color: white;
    padding:20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+.example {
+  opacity: 0.01;
+}
+
+.example.example-active {
+  opacity: 1;
+  transition: opacity 3s ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 2s ease-in;
+}
+
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 1.0s ease-in;
+}
+
+
+
+
+
+
+
+
