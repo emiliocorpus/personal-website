@@ -12,6 +12,8 @@ var Body = React.createClass({
 				<MySkills/>
 
 				<MyPortfolio />
+
+				<Interested />
 		
 			</Element>
 		)

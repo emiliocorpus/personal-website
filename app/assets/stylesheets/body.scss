@@ -17,11 +17,13 @@
   position:absolute;
   text-align:center;
   width: 100%;
-  bottom: 3%;
+  bottom: 2%;
+  text-decoration: none;
 }
 
 #view-portfolio-button:hover {
      font-size:1.3em;
+    text-decoration: none;
 }
 
 #view-skills-button-container {
@@ -37,10 +39,8 @@
 }
 
 
-
-
 #body-container{
-   height: 5500px;
+   height: 5250px;
 }
 
 #about-me-container{
@@ -142,10 +142,6 @@
   text-decoration: none;
 }
 
-#skills-container a:hover{
-  text-decoration:underline;
-}
-
 .skills-descriptions {
   text-align: center;
   padding:3%;
@@ -230,13 +226,16 @@
   background-color: #8EBFDF;
 }
 
-
 .project-picture {
   width: 85%;
-  height:310px;
+  height:340px;
   overflow-y:hidden;
   margin: 0 auto;
-  border: 2px double black;
+}
+
+.project-picture:hover {
+  height:400px;
+  width:90%;
 }
 
 .project-picture img {
@@ -271,4 +270,42 @@
 
 
 
+#interested-container {
+  margin-top: 500px;
+  position:absolute;
+  width:100%;
+  text-align:center;
+ 
+}
+
+#interested {
+  position:relative;
+  padding:2%;
+  margin:0 auto;
+  width: 90%;
+   background-color:#8EBFDF;
+  border: 2px solid black;
+  box-shadow: 7px 10px 3px #414141;
+}
+
+#interested p:first-child {
+  font-family: 'Bangers', cursive;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size:2em;
+}
+
+#interested p:nth-child(2){
+  color:white;
+  font-size:1.2em;
+}
+
+#email {
+  color:white;
+}
+
+#email:hover {
+  color: blue;
+  text-decoration:none;
+}
 

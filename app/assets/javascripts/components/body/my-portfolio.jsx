@@ -10,7 +10,7 @@ var MyPortfolio = React.createClass({
 				<div className="project-container" >
 
 					<div className="project-picture debugger">
-						<a href="http://www.polisee.io/"><img src="assets/polisee.png" /></a>
+						<a href="http://www.polisee.io/" title="www.polisee.io"><img src="assets/polisee.png" /></a>
 					</div>
 
 					<div className="project-description debugger">
@@ -27,7 +27,7 @@ var MyPortfolio = React.createClass({
 				<div className="project-container">
 
 					<div className="project-picture debugger">
-						<a href="http://www.emiliocorpus.com/"><img src="assets/website-pic.png" /></a>
+						<a href="http://www.emiliocorpus.com/" title="www.emiliocorpus.com"><img src="assets/website-pic.png" /></a>
 					</div>
 					<div className="project-description debugger">
 
