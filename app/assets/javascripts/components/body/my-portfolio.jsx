@@ -1,12 +1,12 @@
 var MyPortfolio = React.createClass({
 	render:function(){
 		return(
-			<div id="portfolio-container" >
-				<Element className="section-title" name="my-portfolio"> 
+			<Element id="portfolio-container" name="my-portfolio">
+				<div className="section-title" > 
 					<hr/>
 						PORTFOLIO
 					<hr/>
-				</Element>
+				</div>
 				<div className="project-container" >
 
 					<div className="project-picture debugger">
@@ -38,7 +38,7 @@ var MyPortfolio = React.createClass({
 				</div>
 
 
-			</div>
+			</Element>
 		)
 	}
 })
