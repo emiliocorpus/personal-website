@@ -8,7 +8,7 @@ var LearnMore = React.createClass({
 	render: function() {
 		return(
 			<div id="learn-more-button-container">
-				<Link to="about-me" spy={true} smooth={true} offset={50} duration={500} href="#about-me" id="learn-more-button" >LEARN MORE<br/>
+				<Link to="about-me" spy={true} smooth={true} offset={50} duration={1500} href="#about-me" id="learn-more-button" >LEARN MORE<br/>
 					<span>&darr;</span>
 				</Link>
 			</div>

@@ -1,9 +1,8 @@
-var Element = Scroll.Element;
 
 var About = React.createClass({
 	render:function() {
 		return(
-			<Element key='about' name="about-me"id="about-me-container" className="body-section animate-enter animate-leave">
+			<div key='about'  id="about-me-container" className="body-section animate-enter animate-leave">
 				<div className="section-title"> 
 					<hr/>
 						ABOUT ME
@@ -13,13 +12,15 @@ var About = React.createClass({
 					<img src="/assets/ecorpus/.png"/>
 				</div>
 				
-				<div id="about">I am a full-stack, freelance, web developer and am currently seeking employment. I love embracing new challenges and learning new technologies on the fly. 
+				<div id="about">I am a full-stack, freelance, web developer and am currently seeking employment. I love embracing challenges as they come and learning new technologies on the fly. 
 
-					 My current areas of expertise include Ruby on Rails and Object Oriented Javascript. 
+					 I am currently well versed in Ruby on Rails and Object Oriented Javascript. 
 
-					Outside of coding and builing web-apps, I am an avid ukulele player, basketball enthusiast, Bay Area Sports afficionado, and a well-seasoned Netflix veteran!
+					Outside of programming and expanding my tech knowledge, I consider myself an avid ukulele player, basketball enthusiast, Warriors/Raiders die-hard, and Netflix afficionado!
 				</div>
-			</Element>
+
+				<ToSkills />
+			</div>
 		)
 	}
 })

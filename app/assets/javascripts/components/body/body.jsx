@@ -1,12 +1,19 @@
+var Element = Scroll.Element;
+
 var Body = React.createClass({
 	render:function() {
 		return(
-
-			<div id="body-container" name="about" className="debugger ">
-				<CSSTransitionGroup id="about-me" transitionName="example" transitionEnterTimeout={3000} transitionLeave={false}>
+			<Element id="body-container" name="about-me" className="debugger ">
+				<CSSTransitionGroup id="about-me" transitionName="fadeIn" transitionEnter={false} transitionLeave={false} transitionAppear={true} transitionAppearTimeout={1500}>
 					<About/>
 				</CSSTransitionGroup>
-			</div>
+
+				
+				<MySkills/>
+
+				<MyPortfolio />
+		
+			</Element>
 		)
 	}
 })
