@@ -8,8 +8,6 @@ var MySkills = React.createClass({
 					<hr />
 				</div>
 
-				
-
 				<div className="skills-descriptions">
 					<div className="skill-description">
 						<span className="skill-bold">OBJECT ORIENTED PROGRAMMING</span>: I am well versed in Ruby and Javascript, and am applying/learning best-practices daily. I also am in the progress of learning Swift! I am quite experienced with React.js, and have built several apps, including this website using the React.js library.
@@ -28,7 +26,7 @@ var MySkills = React.createClass({
 					</div>
 
 					<div className="skill-description">
-						<span className="skill-bold">GIT/VERSION CONTROL</span>: I am familiar with <a href="www.github.com">github</a> as almost all of my projects (big or small) or pushed to my repo. I am familiar with version controll and how the workflow of a team project should be structured. 
+						<span className="skill-bold">GIT/VERSION CONTROL</span>: I am familiar with <a href="www.github.com">github</a> as almost all of my projects (big or small) are pushed to my repo. I am familiar with version control and how the workflow of a team project should be structured. 
 					</div>
 
 				</div>		
@@ -40,8 +38,9 @@ var MySkills = React.createClass({
 						<li>AJAX</li>
 						<li>Regex</li>
 						<li>API consumption</li>
-						<li>Frontend design</li>
+						<li>Frontend/Backend design</li>
 						<li>Node/NPM</li>
+						<li>RESTful routing</li>
 					</ul>
 				</div>
 

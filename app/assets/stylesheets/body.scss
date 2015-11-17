@@ -63,6 +63,21 @@
   margin-top: 6%;
 }
 
+#social-media {
+  text-align:center;
+}
+
+.social-media-link {
+  text-decoration: none;
+  margin:5%;
+}
+
+.social-media-pic{
+  height:5%;
+  width:5%;
+}
+
+
 .body-section {
    background-color: #8EBFDF;
    width:100%;
@@ -195,8 +210,9 @@
 }
 
 .languages {
-  font-size:30px;
+  font-size:40px;
   color: white;
+  font-family: 'Bangers', cursive;
 }
 
 .other-skills, .currently-learning {
