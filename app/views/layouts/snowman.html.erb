@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guess That Word</title>
+  <%= stylesheet_link_tag 'application'%>
+  <%= stylesheet_link_tag 'scaffolds'%>
+  <%= stylesheet_link_tag 'snowman'%>
+  <%= javascript_include_tag 'application' %>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+SC|Sanchez" rel="stylesheet">
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<body>
+		<%= yield %>
+    <%= render 'partials/footer' %>
+	</body>
+</html>

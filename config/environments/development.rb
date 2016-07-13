@@ -36,8 +36,7 @@ Rails.application.configure do
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
 
+  config.action_dispatch.x_sendfile_header = "X-Sendfile"
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-
-  config.react.variant = :development
 end

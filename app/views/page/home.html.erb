@@ -1,0 +1,171 @@
+<%= render 'partials/navbar_home' %>
+<div class="upper-body-container">
+	<div class="welcome" >
+		<div id="welcome-splash" class="hidden">
+			<h2>Full-Stack Web Developer</h2>
+			<h2>Bay Area Native</h2>
+			<h2>Lifelong Learner</h2>
+			<h2>Adventure Seeker</h2>
+		</div>
+		<div class="arrow-link-container hidden">
+			<a href="#about-blogs" class="arrow-links" data-target="about-blogs">LEARN MORE<br/>
+				<span style="font-size:20px">&#8595;</span>
+			</a>
+		</div>
+	</div>
+	<div class="divider" id="about-blogs">
+		<div>
+			<h3>A B O U T &nbsp; M E </h3>
+		</div>
+	</div>
+</div>
+<div class="upper-mid-body-container">
+	<!-- <div class ="blogs-container"> -->
+	<!-- 	<div class="latest-blog ">
+			<p class="blog-title">
+				MOST RECENT BLOG:
+				<%= @content[:last_blog][:name]%>
+			</p>
+			<hr />
+			<p class="blog-date">
+				<%= @content[:last_blog].created_at.strftime("%A") %>, 
+				<%= @content[:last_blog].created_at.strftime("%B #{@content[:last_blog].created_at.day.ordinalize}, %Y")%>
+			</p>
+			<p class="blog-content">
+				<%= @content[:last_blog].content %>
+			</p>
+		</div>
+ -->
+	<div class="about-me-summary ">
+		<div class="about-me-pic-container">
+			<img src="assets/ecorpus.png">
+		</div>
+		<div class="about-me-summary-info">
+			<p class="about-me-summary-text">
+				<h3>Emilio Corpus</h3>
+				Bay Area Native | Ruby on Rails Afficianado | Object Oriented Progammer | Critical Thinker | Engineering Empathy 
+			</p>
+		</div>
+		<div style="width:100%;text-align:center;">
+			<a href="www.linkedin.com/emiliocorpus">
+				<img src="assets/linkedin-icon.png" class="sn-icon"/>
+			</a>
+			<a href="www.github.com/">
+				<img src="assets/github-icon.png" class="sn-icon"/>
+			</a>
+		</div>
+
+		<div class="learn-more-about" style="padding-top:3%;">
+			<a href="#more-about-me" class='more-about-me' data-target="more-about-me">
+				Expand<br/>
+				&#8595;
+			</a>
+
+			<a href="#hide-about-me" class="hide-more-about-me" data-target="hide-about-me">
+				&#8593;<br/>
+				Collapse
+			</a>
+		</div>
+
+		<div id="more-about-me">
+			<h3>ABOUT</h3>
+			<p id="about-emilio-full">
+			Emilio is a full stack web developer who is interested in designing/creating applications to help develop a more efficient society. He is currently seeking full-time employment and is looking for any position that will allow him to grow and expand his current technical capacities. He is mostly experienced with Ruby on Rails and also React.js
+			<br/><br/>
+			Prior to his interest in web development, Emilio had aspirations to become a medical doctor. With this in mind he attended UC Irvine where he received his bachelor’s in Biology. For several years after college, Emilio worked as an emergency room scribe to help enhance his medical knowledge. However, it was there that he learned he was no longer as passionate about healthcare as he once was. It was then that he decided to look toward another career path... progamming!
+			<br/> <br/>
+			After talking to several friends with computer science backgrounds and completing <a href="https://www.codecademy.com/">codecademy.com</a> web dev tutorials, he decided to attend DevBootcamp’s program in San Francisco. There he acquired even more skills in web development and today uses his knowledge to design/create various Ruby on Rails applications. Being fairly new to the web development community, Emilio prides himself in learning new technologies on the fly and considers himself an efficient problem solver.
+			<br/> <br/>
+			Outside of the matrix, Emilio loves going on hikes, playing basketball with friends, and traveling to the unknown. He is an Oakland Raiders die-hard fan, amateur ukulele musician, and current PokemonGO trainer.</p>
+		</div>
+		<!-- </div> -->
+	</div>
+
+
+	<div class="divider" id="portfolio">
+			<div>
+				<h3>P O R T F O L I O</h3>
+			</div>
+	</div>
+</div>
+<div class="lower-mid-body-container">
+	<div class="portfolio-container">
+		<div style="vertical-align:middle;text-align:center;width:100%;margin:0 auto;padding-top:100px;padding-bottom:100px;" class="">
+			<% @content[:projects].each do |project| %>
+			<div class="project">
+				<p class="project-title">
+					<h5><%= project.name %></h5>
+				</p>
+				<hr/>
+				<div class ="project-picture">
+					<a href=<%= project.url %>>
+					<img src=<%= 'assets/' + project.picture_url %> / >
+					</a>
+				</div>
+
+				<hr/>
+
+				<p class="project-description">
+					<%= project.description %>
+				</p>
+				<hr />
+				<p class="project-link">
+					<a href=<%= project.url %>>View Project</a>
+				</p>
+			</div>
+			<%end %>
+		</div>
+	</div>
+	
+	<div class="divider" id="skillset">
+				<div>
+					<h3>S K I L L S E T</h3>
+				</div>
+		</div>
+	
+</div>
+
+<div class="lower-body-container">
+	<div class="skills-icons-container">
+		<div class="skill-icon-pic-container" title="HTML5">
+			<img src="assets/html.png"/>
+		</div>
+		
+		<div class="skill-icon-pic-container" title="CSS3">
+			<img src="assets/css.png"/>
+		</div>
+		
+		<div class="skill-icon-pic-container" title="Javascript">
+			<img src="assets/javascript.png"/>
+		</div>
+		
+		<div class="skill-icon-pic-container" title="React.js">
+			<img src="assets/react.png"/>
+		</div>
+
+		<div class="skill-icon-pic-container jquery-pic" title="Jquery">
+			<img src="assets/jquery-icon.png"/>
+		</div>
+		
+		<div class="skill-icon-pic-container" title="Ruby on Rails">
+			<img src="assets/ruby-on-rails.png"/>
+		</div>
+		
+		<div class="skill-icon-pic-container" title="Ruby">
+			<img src="assets/ruby.png"/>
+		</div>
+		
+		<div class="skill-icon-pic-container" title="PostgreSQL">
+			<img src="assets/postgreSQL.png" style="height:110px;"/>
+		</div>
+		
+		<div class="skill-icon-pic-container" title="Github">
+			<img src="assets/git.png"/>
+		</div>
+		
+		<div class="skill-icon-pic-container" title="Heroku">
+			<img src="assets/heroku.png"/>
+		</div>
+	</div>
+</div>
+
