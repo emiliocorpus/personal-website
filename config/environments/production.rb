@@ -81,4 +81,9 @@ Rails.application.configure do
   config.serve_static_files = true
   config.assets.compile = true
   config.assets.digest = true
+  config.assets.precompile += %w(application.scss)
+  config.assets.precompile += %w(page.css)
+  config.assets.precompile += %w(scaffolds.css)
+  config.assets.precompile += %w(battleship.css)
+  config.assets.precompile += %w(snowman.css)
 end
