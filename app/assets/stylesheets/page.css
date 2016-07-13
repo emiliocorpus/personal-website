@@ -356,7 +356,7 @@ hr {
   height:70px;
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px)  {
+@media screen and (max-width: 480px) {
   .skill-icon-pic-container img{
     height:50px;
   }
@@ -441,7 +441,7 @@ hr {
   }
 
   .upper-body-container {
-    background: url('stoop-mobile.jpg') no-repeat center center fixed; 
+    background: url('stoop.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -450,7 +450,7 @@ hr {
     width:100%;
   }
   .upper-mid-body-container {
-    background: url('city-scape-mobile.jpg') no-repeat center center fixed; 
+    background: url('city-scape.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -461,7 +461,7 @@ hr {
     padding-top:2%;
   }
   .lower-mid-body-container {
-    background: url('cage-library-mobile.jpg') no-repeat center center fixed; 
+    background: url('cage-library.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -471,7 +471,7 @@ hr {
     height:100%;
   }
   .lower-body-container {
-    background: url('hangman-mobile.jpg') no-repeat center center fixed; 
+    background: url('hangman.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -482,6 +482,7 @@ hr {
     padding-bottom:20%;
     padding-top:10%;
   }
+
 }
 
 .active li {
