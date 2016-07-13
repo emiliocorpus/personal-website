@@ -12,6 +12,7 @@ gem 'figaro'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'oauth2'
 gem 'prawn'
+gem 'rails_12factor'
 
 
 group :development, :test do
