@@ -8,11 +8,11 @@
 
 	
 	
-	10.times { |n|  
-		Blog.create(title: Faker::Lorem.sentence(3), 
-					content: Faker::Lorem.paragraph(20)
-					)
-	}
+	# 10.times { |n|  
+	# 	Blog.create(title: Faker::Lorem.sentence(3), 
+	# 				content: Faker::Lorem.paragraph(20)
+	# 				)
+	# }
 
 	
 	Project.create(name: "Battleship", description:"Made with React.js and Ruby on Rails. This game was created to further understand how to build a fully functional single-page appliction via React.js. Super fun to build!", url: "/portfolio/battleship", picture_url: "battleship-screenshot.png")
