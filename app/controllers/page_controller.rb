@@ -2,9 +2,10 @@ class PageController < ApplicationController
   layout 'application'
 
   def home
-  	last_blog = Blog.all.last
+  	# last_blog = Blog.all.last
     projects = Project.all
-    @content = {last_blog:last_blog, projects: projects}
+    # @content = {last_blog:last_blog, projects: projects}
+    @content = {projects: projects}
   end
 
   def blogs
