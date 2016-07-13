@@ -17,11 +17,11 @@
 	
 	Project.create(name: "Battleship", description:"Made with React.js and Ruby on Rails. This game was created to further understand how to build a fully functional single-page appliction via React.js. Super fun to build!", url: "/portfolio/battleship", picture_url: "battleship-screenshot.png")
 
-	Project.create(name: "Guess That Word", description: "Project was also made with React.js to gain more experience in designing a known game (similar to Hangman) into a single-page app", url: "/portfolio/guess-that-word", picture_url: 'guess-that-screenshot.png')
+	Project.create(name: "Guess That Word", description: "Project was also made with React.js to gain more experience in designing a known game (similar to Hangman) into a single-page app. ", url: "/portfolio/guess-that-word", picture_url: 'guess-that-screenshot.png')
 
 	Project.create(name: "FitbitGraphs", description: "Uses FitbiAPI to fetch various data like steps and calories from a users Fitbit tracker. Also uses Charts.js to interpret JSON data from the API into a viewable graph.", url: "http://www.fitbitgraphs.co", picture_url: 'fitbit-graphs-screenshot.png')
 
-	Project.create(name: 'My Website', description: 'Made with Ruby on Rails, this site will document my progress as a developer while at the same time showcase my enhanced skills along the way. Utlizes Jquery for css animations', url: "http://www.emiliocorpus.com", picture_url:'website-screenshot.png')
+	Project.create(name: 'My Website', description: 'Made with Ruby on Rails, this site will document my progress as a developer while at the same time showcase my enhanced skills along the way. Utlizes JQuery for CSS animations.', url: "http://www.emiliocorpus.com", picture_url:'website-screenshot.png')
 
 
 
