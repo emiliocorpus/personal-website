@@ -1,0 +1,491 @@
+body {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+
+
+/* NAVBAR ELEMENTS */
+.navbar-fixed-top, .navbar-default, .nav-down{
+  margin-bottom:0;
+  background-color:rgba(44,44,44, 1.0);
+  color:green;
+  transition: top 0.2s ease-in-out;
+}
+.nav-up {
+    top: -50px;
+}
+.nav-custom-color, .nav-custom-color a {
+  color:white;
+}
+.nav-custom-color a:hover{
+  text-decoration:none;
+  color:#C1C1C1;
+  background-color:black;
+}
+.nav.navbar-nav.navbar-right li {
+  padding-right:10px;
+}
+.nav.navbar-nav.navbar-right li a, .navbar-brand {
+    color: white;
+}
+.nav.navbar-nav.navbar-right li a:hover {
+    background-color:black;
+}
+.navbar-fixed-top .navbar-header a, .navbar-default .navbar-header a  {
+  color:white;
+  font-style: cursive;
+}
+.navbar-fixed-top .navbar-header a:hover, .navbar-default .navbar-header a:hover  {
+  color:white;
+  font-style: cursive;
+}
+
+/* FOOTER ELEMENTS */
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  height:200px;
+  display: table;
+}
+.footer-content {
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+}
+.footer, .footer-content {
+  width:100%;
+  background-color: rgba(255, 253, 255, 0.9);
+}
+.pad-left {
+	padding-left:5%;
+}
+
+/* TOP OF PAGE */
+.welcome {
+	padding-top:200px;
+	height:100vh;
+	text-align:center;
+	color:white;
+}
+
+  #welcome-splash {
+    display:none;
+  text-shadow: 2px 2px #020202;
+
+  }
+
+  .hidden {
+    display:none;
+  }
+
+#quote-author {
+  text-align:right;
+}
+
+.blogs-container {
+  height:100%;
+  position:relative;
+}
+
+.upper-body-container {
+  background: url('stoop.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:0;
+  width:100%;
+}
+.upper-mid-body-container {
+  background: url('city-scape.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:0;
+  width:100%;
+  height:100%;
+  padding-top:2%;
+}
+.lower-mid-body-container {
+  background: url('cage-library.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:0;
+  width:100%;
+  height:100%;
+}
+.lower-body-container {
+  background: url('hangman.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:0;
+  width:100%;
+  height:100%;
+  padding-bottom:20%;
+  padding-top:10%;
+}
+
+
+/* DIVIDER ELEMENTS AND LINKS FOR JQUERY*/
+.divider {
+	background-color:rgba(105,105,105,0.97);
+	text-align:center;
+	margin:0 auto;
+	width:100%;
+	height:70px;
+	display:table;
+}
+hr {
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #131313;
+    margin: 1em 0;
+    padding: 0; 
+}
+.divider div {
+	color:white;
+	display:table-cell;
+	text-align:center;
+}
+.arrow-link-container {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align:center;
+  margin:0 auto;
+}
+.arrow-link-container a {
+
+  font-size:20px;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+.arrow-link-container a:hover {
+  font-size:24px;
+  text-decoration: none;
+  color:white;
+}
+
+
+/* // PORTFOLIO PROJECTS */
+.portfolio-container {
+	width:100%;
+	height:100%;
+	padding-top:100px;
+}
+.project {
+	background-color: rgba(255, 253, 255, 0.9);
+	background: rgba(255, 253, 255, 0.9);
+	color: #494949;
+	width:200px;
+	height:450px;
+	padding:10px;
+	margin-top:10px;
+	display:inline-block;
+	vertical-align:top;
+	font-size:20px;
+  box-shadow:6px 6px 6px #4A4A4A;
+}
+.project-title {
+	text-align:center;
+  
+}
+
+.project-link {
+  text-decoration:underline;
+  color:blue;
+}
+
+.project-link:hover {
+  color:green;
+}
+
+.project-picture {
+  height:100px;
+  width:100%;
+  text-align:center;
+  margin:0 auto;
+  padding:0;
+  overflow-x:hidden;
+}
+
+.project-picture img {
+  max-height:100px;
+}
+.project-description {
+	text-align:justify;
+	font-size:10px;
+	height:125px;
+}
+#portfolio {
+  margin-top:30%;
+}
+
+.about-me-summary-text {
+  font-size:15px;
+}
+#about-emilio-full {
+  text-align:justify;
+}
+
+.about-me-summary {
+  margin:0 auto;
+  text-align:center;
+}
+
+/* //blogs and about me */
+.about-me-pic-container{
+  margin-bottom:3%;
+}
+.about-me-pic-container img{
+  border-radius:50px;
+  height:180px;
+  margin:0 auto;
+}
+
+.about-me-summary-info {
+  width:50%;
+  margin:0 auto;
+  font-size:1.2em;
+}
+.blogs-container, .portfolio-container {
+	width: 100%;
+	margin: 0 auto;
+}
+.blogs-container {
+  padding-bottom:200px;
+  height:100vh;
+}
+.latest-blog, .about-me-summary {
+	width:300px;
+
+}	
+.blog {
+	margin-bottom:10%;
+}
+ .latest-blog, .blog, .about-me-summary{
+	margin: 0 auto;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:5%;
+	padding-bottom:5%;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:2%;
+	background-color: rgba(255, 253, 255, 0.9);
+	background: rgba(255, 253, 255, 0.9);
+	color: #494949;
+  box-shadow:10px 10px 10px #4A4A4A;
+}
+.latest-blog{
+	width:70.0%;
+  float:left;
+  max-height:500px;
+}
+.about-me-summary {
+  margin:0 auto;
+  width:70%;
+  font-size:10px;
+}
+.about-me-summary {
+	padding:2%;
+}
+#more-about-me {
+  display:none;
+  text-align:left;
+  font-size:15px;
+  padding:3%;
+  padding-bottom:5%;
+}
+.hide-more-about-me {
+  display:none;
+}
+.sn-icon {
+  width:30px;
+  height:30px;
+  margin-left:3%;
+  margin-right:3%;
+}
+
+.sn-icon:hover {
+  text-decoration:none;
+  width:35px;
+  height:35px;
+}
+
+.blog-title {
+	font-size: 25px;
+	font-style:bold;
+}
+.blog-date {
+	font-size: 14px;
+	padding-left: 3%;
+}
+.blog-content {
+	font-size: 16px;
+	text-align:justify;
+}
+
+/* SKILLS PICTURES */
+.skills-icons-container {
+  display:inline-block;
+	text-align:center;
+	width:100%;
+}
+.skill-icon-pic-container{
+  display: inline-block;
+  margin:5%;
+  margin-bottom:2%;
+  margin-top:2%;
+}
+.skill-icon-pic-container img{
+  height:100px;
+}
+
+.jquery-pic {
+  height:70px;
+}
+
+@media screen and (max-width: 480px) {
+  .skill-icon-pic-container img{
+    height:50px;
+  }
+
+  .jquery-pic {
+    height:15px;
+  }
+  .welcome {
+	  padding-top:100px;
+  }
+
+  .blog, .latest-blog, .about-me-summary {
+  	width:98%;
+  	margin-left:0;
+  	margin-right:0;
+  }
+  .latest-blog, .about-me-summary {
+	  padding:1%;
+  }
+  .blogs-container, .portfolio-container {
+  	padding-left:0;
+  	padding-right:0;
+  }
+  .blogs-container {
+  	padding-bottom:100px;
+  }
+	.latest-blog {
+		padding-top:30px;
+		margin-top:10%;
+
+	}
+	.blog-content {
+
+	}
+  .about-me-summary {
+  	margin-bottom:20%;
+  	padding:1%;
+  }
+  .about-me-summary-info {
+    width:100%;
+  }
+  .about-me-summary { 
+    width:100%;
+  }
+
+  #portfolio {
+  	margin-top:200px;
+  }
+
+  #skillset {
+    margin-top:200px;
+  }
+
+  .project {
+    height:400px;
+  	padding:10px;
+  	margin-top:10px;
+    width:100%;
+  	display:inline-block;
+  	font-size:14px;
+  }
+
+  .project-title {
+  	text-align:center;
+  }
+  .project-description {
+  	text-align:justify;
+  	font-size:10px;
+  	height:70px;
+  }
+
+  .project-picture {
+    height:150px;
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+    padding:0;
+  }
+
+  .project-picture img {
+    max-height:150px;
+  }
+
+  .upper-body-container {
+    background: url('stoop.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top:0;
+    width:100%;
+  }
+  .upper-mid-body-container {
+    background: url('city-scape.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top:0;
+    width:100%;
+    height:100%;
+    padding-top:2%;
+  }
+  .lower-mid-body-container {
+    background: url('cage-library.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top:0;
+    width:100%;
+    height:100%;
+  }
+  .lower-body-container {
+    background: url('hangman.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top:0;
+    width:100%;
+    height:100%;
+    padding-bottom:20%;
+    padding-top:10%;
+  }
+
+}
+
+.active li {
+  background-color:black;
+  color:white;
+}
