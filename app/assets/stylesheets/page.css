@@ -356,7 +356,7 @@ hr {
   height:70px;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px)  {
   .skill-icon-pic-container img{
     height:50px;
   }
@@ -482,7 +482,6 @@ hr {
     padding-bottom:20%;
     padding-top:10%;
   }
-
 }
 
 .active li {
