@@ -181,7 +181,7 @@ hr {
 .portfolio-container {
 	width:100%;
 	height:100%;
-	padding-top:100px;
+  border:2px solid green;
 }
 .project {
 	background-color: rgba(255, 253, 255, 0.9);
@@ -407,9 +407,11 @@ hr {
   }
 
   #skillset {
-    margin-top:200px;
   }
-
+  .portfolio-container {
+    width:100%;
+    height:100%;
+  }
   .project {
     height:400px;
   	padding:10px;
@@ -439,7 +441,22 @@ hr {
   .project-picture img {
     max-height:150px;
   }
+}
 
+
+
+
+/* iphone 4 */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .welcome {
+    padding-top:80px;
+    height:480px;
+    border:3px solid red;
+  }
   .upper-body-container {
     background: url('stoop.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -447,7 +464,6 @@ hr {
     -o-background-size: cover;
     background-size: cover;
     margin-top:0;
-    width:100%;
   }
   .upper-mid-body-container {
     background: url('city-scape.jpg') no-repeat center center fixed; 
@@ -457,7 +473,6 @@ hr {
     background-size: cover;
     margin-top:0;
     width:100%;
-    height:100%;
     padding-top:2%;
   }
   .lower-mid-body-container {
@@ -468,7 +483,6 @@ hr {
     background-size: cover;
     margin-top:0;
     width:100%;
-    height:100%;
   }
   .lower-body-container {
     background: url('hangman.jpg') no-repeat center center fixed; 
@@ -478,14 +492,204 @@ hr {
     background-size: cover;
     margin-top:0;
     width:100%;
-    height:100%;
     padding-bottom:20%;
     padding-top:10%;
   }
-
 }
 
-.active li {
-  background-color:black;
-  color:white;
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  .welcome {
+    padding-top:30px;
+    height:320px;
+    border:3px solid red;
+  }
 }
+
+/* iphone 5 */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      .welcome {
+        height:568px;
+        border:3px solid red;
+      }
+      .upper-body-container {
+        background: url('stoop.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+      }
+      .upper-mid-body-container {
+        background: url('city-scape.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+        padding-top:2%;
+      }
+      .lower-mid-body-container {
+        background: url('cage-library.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+      }
+      .lower-body-container {
+        background: url('hangman.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+        padding-bottom:20%;
+        padding-top:10%;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .welcome {
+        padding-top:40px;
+        height:330px;
+        border:3px solid red;
+      }
+    .arrow-link-container {
+      position:absolute;
+      bottom:0;
+      right:0;
+      text-align:left;
+      margin:0 auto;
+      border:1px solid red;
+      display:none !important;
+    }
+}
+
+
+  /* iphone 6 */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+        .welcome {
+          padding-top:80px;
+          height:667px;
+          border:3px solid red;
+        }
+        .upper-body-container {
+          background: url('stoop-mobile.jpg') no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+        }
+        .upper-mid-body-container {
+          background: url('city-scape-mobile.jpg') no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+          padding-top:2%;
+        }
+        .lower-mid-body-container {
+          background: url('cage-library-mobile.jpg') no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+        }
+        .lower-body-container {
+          background: url('hangman-mobile.jpg') no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+          padding-bottom:20%;
+          padding-top:10%;
+        }
+  }
+
+  /* iphone 6+ */
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+      .welcome {
+        padding-top:225px;
+        height:736px;
+        border:3px solid red;
+      }
+      .upper-body-container {
+        background: url('stoop.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+      }
+      .upper-mid-body-container {
+        background: url('city-scape.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+        padding-top:2%;
+      }
+      .lower-mid-body-container {
+        background: url('cage-library.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+      }
+      .lower-body-container {
+        background: url('hangman.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+        padding-bottom:20%;
+        padding-top:10%;
+      }
+  }
+
+  /* Landscape */
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+      .welcome {
+        padding-top:120px;
+        height:414px;
+        border:3px solid red;
+      }
+  }
