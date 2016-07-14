@@ -33,8 +33,8 @@ var PieceInstructions = React.createClass({
 					<ul>
 						<li>Click a ship below and then click desired cell on board</li>
 							<ul>
-								<li>Ship will be placed rightwards or downwards from the clicked cell</li>
-								<li>Ships may not be placed adjacent to each other!</li>
+								<li>- Ship will be placed rightwards or downwards from the clicked cell</li>
+								<li>- Ships may not be placed adjacent to each other!</li>
 							</ul>
 						<li>Double click desired piece below to rotate</li>
 						<li>Or if you are feeling lazy hit the 'Randomize' button</li>
@@ -48,9 +48,11 @@ var PieceInstructions = React.createClass({
 					<DestroyerPiece data={this.props.data} direction={this.props.data.userPieces.destroyer.direction}   handleDirectionChange={this.receiveDirectionChange} sendSelection={this.manageSelection}/>
 					<PatrolShipPiece data={this.props.data} direction={this.props.data.userPieces.patrolShip.direction} handleDirectionChange={this.receiveDirectionChange} sendSelection={this.manageSelection}/>
 				</div>
-				{randomBoard}
-				{startGameButton}
-				{undoButton}
+				<div className="buttons-container">
+					{randomBoard}
+					{startGameButton}
+					{undoButton}
+				</div>
 			</div>
 		)
 	}

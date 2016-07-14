@@ -4,7 +4,7 @@ var Header = React.createClass({
 			<div id="header">
 
 				<div>
-					<span>
+					<span id="home-link">
 						<a href="/">Home</a>
 					</span>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
