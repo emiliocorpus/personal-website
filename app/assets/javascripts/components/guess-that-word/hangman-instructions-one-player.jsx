@@ -21,7 +21,7 @@ var HangmanInstructionsOnePlayer = React.createClass({
 					  <input type="radio" name="word" value="mammals"/> <label onClick="">Mammals</label><br/>
 					  <input type="radio" name="word" value="countries"/> <label onClick="">Countries</label><br/>
 					  <input type="radio" name="word" value="random"/> <label onClick="">Random</label><br/><br/>
-					  <input type="submit" value="Submit" onClick={this.handleCategorySelect}/>
+					  <input type="submit" value="Submit"/>
 					</form>
 				</div>
 			</div>
