@@ -5,6 +5,9 @@ var HangmanInstructionsOnePlayer = React.createClass({
 		if (category.length > 0) {
 			this.props.handleCategorySelect(category.toLowerCase())
 		}
+		else {
+			this.props.handleCategorySelect('random')
+		}
 	},
 	render:function(){
 		return (
@@ -18,7 +21,7 @@ var HangmanInstructionsOnePlayer = React.createClass({
 					  <input type="radio" name="word" value="mammals"/> <label onClick="">Mammals</label><br/>
 					  <input type="radio" name="word" value="countries"/> <label onClick="">Countries</label><br/>
 					  <input type="radio" name="word" value="random"/> <label onClick="">Random</label><br/><br/>
-					  <input type="submit" value="Submit" />
+					  <input type="submit" value="Submit" onClick={this.handleCategorySelect}/>
 					</form>
 				</div>
 			</div>
