@@ -1,0 +1,1058 @@
+
+/* -------------MISC--------------- */
+
+body {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.hidden {
+  display:none;
+}
+.pad-left {
+  padding-left:5%;
+}
+
+/* ------------------NAVBAR ELEMENTS -------------------*/
+.navbar-fixed-top, .navbar-default, .nav-down{
+  margin-bottom:0;
+  background-color:rgba(44,44,44, 1.0);
+  color:green;
+  transition: top 0.2s ease-in-out;
+}
+.nav-up {
+    top: -50px;
+}
+.nav-custom-color, .nav-custom-color a {
+  color:white;
+}
+.nav-custom-color a:hover{
+  text-decoration:none;
+  color:#C1C1C1;
+  background-color:black;
+}
+.nav.navbar-nav.navbar-right li {
+  padding-right:10px;
+}
+.nav.navbar-nav.navbar-right li a, .navbar-brand {
+    color: white;
+}
+.nav.navbar-nav.navbar-right li a:hover {
+    background-color:black;
+    color:#ABE148;
+}
+.navbar-fixed-top .navbar-header a, .navbar-default .navbar-header a  {
+  color:#ABE148;
+  font-style: cursive;
+}
+.navbar-fixed-top .navbar-header a:hover, .navbar-default .navbar-header a:hover  {
+  color:#ABE148;
+  font-style: cursive;
+}
+
+.navbar-brand{
+  color:white;
+}
+
+/* -----------------FOOTER ELEMENTS---------------------------- */
+.footer {
+  width: 100%;
+  height:200px;
+  display: table;
+}
+.footer-content {
+  width:80%;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+
+}
+.footer, .footer-content {
+  width:100%;
+  background-color: rgba(255, 253, 255, 0.9);
+}
+/*----------------- PAGE DIVIDERS AND CONTAINS ------------------*/
+.upper-body-container {
+  background: url('stoop.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:0;
+  width:100%;
+}
+.upper-mid-body-container {
+  background: url('city-scape.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:0;
+  width:100%;
+  height:100%;
+  padding-top:2%;
+  margin: 0 auto;
+  text-align:center;
+}
+.lower-mid-body-container {
+  background: url('cage-library.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:0;
+  width:100%;
+  height:100%;
+}
+.lower-body-container {
+  background: url('hangman.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:0;
+  margin-bottom:0;
+  width:100%;
+  height:100%;
+  padding-top:10%;
+}
+.divider {
+  background-color:rgba(105,105,105,0.97);
+  text-align:center;
+  margin:0 auto;
+  width:100%;
+  height:70px;
+  display:table;
+}
+hr {
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #131313;
+    margin: 1em 0;
+    padding: 0; 
+}
+.divider div {
+  color:white;
+  display:table-cell;
+  text-align:center;
+}
+.arrow-link-container {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align:center;
+  margin:0 auto;
+  width:300px;
+}
+.arrow-link-container a {
+  padding:4px;
+  font-size:15px;
+  font-weight: bolder;
+  text-decoration: none;
+  color:white;
+  padding-bottom:6px;
+}
+.arrow-link-container a:hover {
+  font-size:15px;
+  text-decoration: none;
+  color:#81F9FF;
+}
+.glyphicon {
+    font-size: 25px;
+}
+.glyphicon:hover {
+    color:#81F9FF;
+}
+
+
+/* -----------------TOP OF PAGE -------------------*/
+.welcome {
+  padding-top:200px;
+  height:100vh;
+  text-align:center;
+  color:white;
+}
+#welcome-splash {
+  display:none;
+  text-shadow: 2px 2px #020202;
+}
+
+/* ----------------ABOUT ME STYLING--------------------- */
+.about-me-summary-text {
+  font-size:15px;
+}
+#about-emilio-full {
+  text-align:justify;
+}
+.about-me-pic-container{
+  margin-bottom:3%;
+}
+.about-me-pic-container img{
+  border-radius:50px;
+  height:180px;
+  margin:0 auto;
+}
+.about-me-summary {
+  text-align:center;
+  width:75%;
+  background-color: rgba(255, 253, 255, 0.9);
+  background: rgba(255, 253, 255, 0.9);
+  color: #494949;
+  box-shadow:10px 10px 10px #4A4A4A;
+  margin: 0 auto;
+  margin-top:5%;
+  padding:2%;
+}
+.about-me-summary-info {
+  width:50%;
+  margin:0 auto;
+}
+#more-about-me {
+  display:none;
+  text-align:left;
+  font-size:15px;
+  padding:3%;
+  padding-bottom:5%;
+}
+.more-about-link:hover {
+  text-decoration:none;
+}
+.hide-more-about-me {
+  display:none;
+}
+.sn-icon {
+  width:30px;
+  height:30px;
+  margin-left:3%;
+  margin-right:3%;
+}
+
+.sn-icon:hover {
+  text-decoration:none;
+  width:35px;
+  height:35px;
+}
+/* //----------------- PORTFOLIO PROJECTS----------------- */
+#portfolio {
+  margin-top:30%;
+}
+.portfolio-container {
+  width:100%;
+  height:100%;
+  padding:5%;
+}
+.project {
+  background-color: rgba(255, 253, 255, 0.9);
+  background: rgba(255, 253, 255, 0.9);
+  color: #494949;
+  width:200px;
+  height:450px;
+  padding:10px;
+  margin-top:10px;
+  display:inline-block;
+  vertical-align:top;
+  font-size:20px;
+  margin:10px;
+  box-shadow:6px 6px 6px #4A4A4A;
+}
+.project-title {
+  text-align:center;
+}
+.project-link {
+  text-decoration:underline;
+  color:blue;
+}
+.project-link:hover {
+  color:green;
+}
+.project-picture {
+  height:100px;
+  width:100%;
+  text-align:center;
+  margin:0 auto;
+  padding:0;
+  overflow-x:hidden;
+}
+.project-picture img {
+  max-height:100px;
+}
+.project-description {
+  text-align:justify;
+  font-size:10px;
+  height:125px;
+}
+/* -----------SKILLS PICTURES-------------- */
+.skills {
+  text-align:center;
+  width:75%;
+  background-color: rgba(255, 253, 255, 0.9);
+  background: rgba(255, 253, 255, 0.9);
+  color: #494949;
+  box-shadow:10px 10px 10px #4A4A4A;
+  margin: 0 auto;
+  margin-top:5%;
+  padding:2%;
+  color:black;
+  margin-bottom:5%;
+}
+.skills ul li {
+  color:black;
+}
+
+.skills-icons-container {
+  width:90%;
+  display:inline-block;
+	text-align:center;
+	width:100%;
+  background-color: rgba(255, 253, 255, 0.3);
+  padding:5%;
+}
+.skill-icon-pic-container{
+  display: inline-block;
+  margin:5%;
+  margin-top:2%;
+}
+.skill-icon-pic-container img{
+  height:100px;
+}
+
+.jquery-pic img{
+  height:30px;
+}
+
+
+/* -----------------FUTURE BLOGS STYLING -------------------*/
+.blogs-container {
+  height:100%;
+  position:relative;
+}
+.blogs-container, .portfolio-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.blogs-container {
+  padding-bottom:200px;
+  height:100vh;
+}
+
+.blog {
+  margin-bottom:10%;
+}
+/*  .latest-blog, .blog, .about-me-summary{
+  margin: 0 auto;
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top:2%;
+  background-color: rgba(255, 253, 255, 0.9);
+  background: rgba(255, 253, 255, 0.9);
+  color: #494949;
+  box-shadow:10px 10px 10px #4A4A4A;
+} */
+.latest-blog{
+  width:70.0%;
+  float:left;
+  max-height:500px;
+}
+.blog-title {
+  font-size: 25px;
+  font-style:bold;
+}
+.blog-date {
+  font-size: 14px;
+  padding-left: 3%;
+}
+.blog-content {
+  font-size: 16px;
+  text-align:justify;
+}
+
+@media screen and (max-width: 800px) {
+    .about-me-summary {
+      width:100%;
+    }
+    .portfolio-container {
+      width:100%;
+      height:100%;
+      padding:2%;
+    }
+}
+/* -------------------------MISC MOBILE--------------------------------- */
+  @media screen and (max-width: 480px) {
+    .skill-icon-pic-container img{
+      height:50px;
+    }
+    .skills {
+      width:100%;
+    }
+    .welcome {
+  	  padding-top:100px;
+    }
+    .jquery-pic img {
+          height:30px;
+        }
+    .blog, .latest-blog, .about-me-summary {
+    	width:98%;
+    	margin-left:0;
+    	margin-right:0;
+    }
+    .latest-blog, .about-me-summary {
+  	  padding:1%;
+    }
+    .blogs-container, .portfolio-container {
+    	padding-left:0;
+    	padding-right:0;
+    }
+    .blogs-container {
+    	padding-bottom:100px;
+    }
+  	.latest-blog {
+  		padding-top:30px;
+  		margin-top:10%;
+
+  	}
+  	.blog-content {
+
+  	}
+    .about-me-summary {
+    	margin-bottom:20%;
+    	padding:1%;
+    }
+    .about-me-summary-info {
+      width:100%;
+    }
+    .about-me-summary { 
+      width:100%;
+    }
+
+    #portfolio {
+    	margin-top:200px;
+    }
+
+    #skillset {
+    }
+    .portfolio-container {
+      width:100%;
+      height:100%;
+    }
+    .project {
+      height:400px;
+    	padding:10px;
+    	margin-top:10px;
+      width:100%;
+    	display:inline-block;
+    	font-size:14px;
+    }
+
+    .project-title {
+    	text-align:center;
+    }
+    .project-description {
+    	text-align:justify;
+    	font-size:10px;
+    	height:70px;
+    }
+
+    .project-picture {
+      height:150px;
+      width:100%;
+      text-align:center;
+      margin:0 auto;
+      padding:0;
+    }
+
+    .project-picture img {
+      max-height:150px;
+    }
+  }
+/* ----------------------------iphone 4 portrait-------------------------*/
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+    .welcome {
+      padding-top:80px;
+      height:480px;
+    
+    }
+
+    .skills {
+      width:100%;
+    }
+    .jquery-pic img {
+          height:30px;
+        }
+    .upper-body-container {
+      background: url('stoop.jpg') no-repeat center center scroll; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-top:0;
+    }
+    .upper-mid-body-container {
+      background: url('city-scape.jpg') no-repeat center center scroll; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-top:0;
+      width:100%;
+      padding-top:2%;
+    }
+    .lower-mid-body-container {
+      background: url('cage-library.jpg') no-repeat center center scroll; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-top:0;
+      width:100%;
+    }
+    .lower-body-container {
+      background: url('hangman.jpg') no-repeat center center scroll; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-top:0;
+      width:100%;
+      padding-bottom:20%;
+      padding-top:10%;
+    }
+    .arrow-link-container {
+        position:absolute;
+        bottom:0;
+        right:0;
+        text-align:left;
+        margin:0 auto;
+        display:none !important;
+      }
+  }
+
+  /* ------------------iphone 4 LANDSCAPE--------------------------------*/
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+    .welcome {
+      padding-top:30px;
+      height:320px;
+    
+    }
+    .skills {
+      width:100%;
+    }
+    .jquery-pic img {
+          height:30px;
+        }
+    .upper-body-container {
+      background: url('stoop.jpg') no-repeat center center scroll; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-top:0;
+    }
+    .upper-mid-body-container {
+      background: url('city-scape.jpg') no-repeat center center scroll; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-top:0;
+      width:100%;
+      padding-top:2%;
+    }
+    .lower-mid-body-container {
+      background: url('cage-library.jpg') no-repeat center center scroll; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-top:0;
+      width:100%;
+    }
+    .lower-body-container {
+      background: url('hangman.jpg') no-repeat center center scroll; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-top:0;
+      width:100%;
+      padding-bottom:20%;
+      padding-top:10%;
+    }
+    .arrow-link-container {
+        position:absolute;
+        bottom:0;
+        right:0;
+        text-align:left;
+        margin:0 auto;
+        display:none !important;
+      }
+
+  }
+/*----------------------- iphone 5 PORTRAIT---------------------------- */
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+
+        .welcome {
+          height:568px;
+        
+        }
+        .skills {
+          width:100%;
+        }
+        .jquery-pic img {
+          height:30px;
+        }
+        .upper-body-container {
+          background: url('stoop.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+        }
+        .upper-mid-body-container {
+          background: url('city-scape.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+          padding-top:2%;
+        }
+        .lower-mid-body-container {
+          background: url('cage-library.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+        }
+        .lower-body-container {
+          background: url('hangman.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+          padding-bottom:20%;
+          padding-top:10%;
+        }
+    
+        #about-me-summary {
+          margin-top:50px;
+        }
+        #more-about-me {
+          display:inline;
+          text-align:left;
+          font-size:15px;
+          padding:10%;
+          padding-bottom:5%;
+        }
+        #more-about-me h3 {
+          margin-left:3%;
+        }
+        #about-emilio-full {
+          padding:2%;
+        }
+        .more-about-me {
+          display:none;
+        }
+        .hide-more-about-me {
+          display:none;
+        }
+        .more-about-link:hover {
+          text-decoration:none;
+        }
+  }
+/* ----------------------IPHONE 5 LANDSCAPE----------------------------- */
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      .welcome {
+          padding-top:40px;
+          height:330px;
+        
+        }
+      .skills {
+        width:100%;
+      }
+      .jquery-pic img {
+          height:30px;
+        }
+      .arrow-link-container {
+        position:absolute;
+        bottom:0;
+        right:0;
+        text-align:left;
+        margin:0 auto;
+        display:none !important;
+      }
+      .upper-body-container {
+        background: url('stoop.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+      }
+      .upper-mid-body-container {
+        background: url('city-scape.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+        padding-top:2%;
+      }
+      .lower-mid-body-container {
+        background: url('cage-library.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+      }
+      .lower-body-container {
+        background: url('hangman.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+        padding-bottom:20%;
+        padding-top:10%;
+      }
+      #about-me-summary {
+        margin-top:50px;
+        width:100%;
+      }
+      #more-about-me {
+        display:inline;
+        text-align:left;
+        font-size:15px;
+        padding:10%;
+        padding-bottom:5%;
+      }
+      #more-about-me h3 {
+        margin-left:3%;
+      }
+      #about-emilio-full {
+        padding:2%;
+      }
+      .more-about-me {
+        display:none;
+      }
+      .hide-more-about-me {
+        display:none;
+      }
+      .more-about-link:hover {
+        text-decoration:none;
+      }
+  }
+  /* ------------------------iphone 6 PORTRAIT ------------------------ */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation:portrait) { 
+        .welcome {
+          padding-top:80px;
+          height:667px;
+        
+        }
+        .skills {
+          width:100%;
+        }
+        .jquery-pic img {
+          height:30px;
+        }
+        .arrow-link-container {
+          position:absolute;
+          bottom:0;
+          right:0;
+          text-align:left;
+          margin:0 auto;
+          display:none !important;
+        }
+        .upper-body-container {
+          background: url('stoop.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+        }
+        .upper-mid-body-container {
+          background: url('city-scape.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+          padding-top:2%;
+        }
+        .lower-mid-body-container {
+          background: url('cage-library.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+        }
+        .lower-body-container {
+          background: url('hangman.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+          padding-bottom:20%;
+          padding-top:10%;
+        }
+
+        #about-me-summary {
+          margin-top:50px;
+        }
+        #about-emilio-full {
+          padding:2%;
+        }
+        #more-about-me {
+          display:inline;
+          text-align:left;
+          font-size:15px;
+          padding:8%;
+          padding-bottom:5%;
+        }
+        .more-about-me {
+          display:none;
+        }
+        .hide-more-about-me {
+          display:none;
+        }
+        .more-about-link:hover {
+          text-decoration:none;
+        }
+
+  }
+/* ---------------------------IPHONE 6 LANDSCAPE------------------------- */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) { 
+
+        .welcome {
+          padding-top:40px;
+          height:375px;
+        
+        }
+        .skills {
+          width:100%;
+        }
+
+
+        .arrow-link-container {
+          position:absolute;
+          bottom:0;
+          right:0;
+          text-align:left;
+          margin:0 auto;
+          display:none !important;
+        }
+        .upper-body-container {
+          background: url('stoop.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+        }
+        .upper-mid-body-container {
+          background: url('city-scape.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+          padding-top:2%;
+        }
+        .lower-mid-body-container {
+          background: url('cage-library.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+        }
+        .lower-body-container {
+          background: url('hangman.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          margin-top:0;
+          width:100%;
+          padding-bottom:20%;
+          padding-top:5%;
+        }
+        .about-me-summary { 
+          width:100%;
+        }
+        #about-emilio-full {
+          padding:2%;
+        }
+        #more-about-me {
+          display:inline;
+          text-align:left;
+          font-size:15px;
+          padding:8%;
+          padding-bottom:5%;
+        }
+        .more-about-me {
+          display:none;
+        }
+        .hide-more-about-me {
+          display:none;
+        }
+        .more-about-link:hover {
+          text-decoration:none;
+        }
+  }
+  /* -----------------------IPHONE 6+ PORTRAIT---------------------------*/
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+      .welcome {
+        padding-top:225px;
+        height:736px;
+      
+      }
+      .skills {
+        width:100%;
+      }
+      .jquery-pic img {
+          height:30px;
+        }
+      .upper-body-container {
+        background: url('stoop.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+      }
+      .upper-mid-body-container {
+        background: url('city-scape.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+        padding-top:2%;
+      }
+      .lower-mid-body-container {
+        background: url('cage-library.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+      }
+      .lower-body-container {
+        background: url('hangman.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+        padding-bottom:20%;
+        padding-top:10%;
+      }
+  }
+  /* ---------------------IPHONE 6+ LANDSCAPE ---------------------------*/
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+      .welcome {
+        padding-top:120px;
+        height:414px;
+      
+      }
+      .skills {
+        width:100%;
+      }
+      .jquery-pic img {
+          height:30px;
+        }
+      .upper-body-container {
+        background: url('stoop.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+      }
+      .upper-mid-body-container {
+        background: url('city-scape.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+        padding-top:2%;
+      }
+      .lower-mid-body-container {
+        background: url('cage-library.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+      }
+      .lower-body-container {
+        background: url('hangman.jpg') no-repeat center center scroll; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-top:0;
+        width:100%;
+        padding-bottom:20%;
+        padding-top:10%;
+      }
+  }
