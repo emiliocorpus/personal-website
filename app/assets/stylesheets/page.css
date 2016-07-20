@@ -9,12 +9,6 @@ body {
 .pad-left {
   padding-left:5%;
 }
-.glyphicon {
-    font-size: 25px;
-}
-.glyphicon:hover {
-    font-size: 30px;
-}
 
 /* ------------------NAVBAR ELEMENTS -------------------*/
 .navbar-fixed-top, .navbar-default, .nav-down{
@@ -27,7 +21,7 @@ body {
     top: -50px;
 }
 .nav-custom-color, .nav-custom-color a {
-  color:#ABE148;
+  color:white;
 }
 .nav-custom-color a:hover{
   text-decoration:none;
@@ -38,18 +32,18 @@ body {
   padding-right:10px;
 }
 .nav.navbar-nav.navbar-right li a, .navbar-brand {
-    color: #ABE148;
+    color: white;
 }
 .nav.navbar-nav.navbar-right li a:hover {
     background-color:black;
-    color:white;
+    color:#ABE148;
 }
 .navbar-fixed-top .navbar-header a, .navbar-default .navbar-header a  {
-  color:white;
+  color:#ABE148;
   font-style: cursive;
 }
 .navbar-fixed-top .navbar-header a:hover, .navbar-default .navbar-header a:hover  {
-  color:white;
+  color:#ABE148;
   font-style: cursive;
 }
 
@@ -160,6 +154,13 @@ hr {
 .arrow-link-container a:hover {
   font-size:15px;
   text-decoration: none;
+  color:#81F9FF;
+}
+.glyphicon {
+    font-size: 25px;
+}
+.glyphicon:hover {
+    color:#81F9FF;
 }
 
 
