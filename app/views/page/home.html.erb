@@ -1,4 +1,4 @@
-<%= render 'partials/navbar_home' %>
+
 <div class="upper-body-container mobile-bg-image">
 	<div class="welcome" >
 		<div id="welcome-splash" class="hidden">
@@ -8,8 +8,8 @@
 			<h2>Adventure Seeker</h2>
 		</div>
 		<div class="arrow-link-container hidden">
-			<a href="#about-blogs" class="arrow-links" data-target="about-blogs">LEARN MORE<br/>
-				<span style="font-size:20px;"> &#8595;</span>
+			<a href="#about-blogs" class="arrow-links" data-target="about-blogs">
+				<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
 			</a>
 		</div>
 	</div>
@@ -113,7 +113,6 @@
 
 <div class="lower-body-container mobile-bg-image">
 	<div class="skills">
-			
 			<h5><u>My Skills include, but are not limited to:</u></h5>
 			| Agile Development | <br/>
 			| MVC Framework | <br/>
@@ -122,8 +121,6 @@
 			| Test Driven Development | <br/>
 			| RESTful Routing | <br/>
 			| Heroku Deployment | <br/>
-
-
 	</div>
 
 
@@ -169,5 +166,6 @@
 			<img src="assets/heroku.png"/>
 		</div>
 	</div>
+	<%= render 'partials/footer' %>
 </div>
 
