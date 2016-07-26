@@ -1,6 +1,6 @@
 class BlogsController < ApplicationController
   def index
-  	@blog =  Blog.all.last
+  	@blog =  Blog.all
   end
 
   def show

@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'blogs' => 'blogs#index', as: :blogs
   get 'blogs/new' => 'blogs#new', as: :new_blog
-  get 'blogs/:id' => 'blogs#show'
+  get 'blogs/:id' => 'blogs#show', as: :blog
   post 'blogs/create' => 'blogs#create'
 
 

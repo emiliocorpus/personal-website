@@ -96,35 +96,23 @@
         <div class="col-md-4">
 
             <!-- Blog Categories Well -->
-            <!-- <div class="well">
+            <div class="well">
                 <h4>Other Blogs</h4>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <ul class="list-unstyled">
-                            <li><a href="#">Category Name</a>
-                            </li>
-                            <li><a href="#">Category Name</a>
-                            </li>
-                            <li><a href="#">Category Name</a>
-                            </li>
-                            <li><a href="#">Category Name</a>
-                            </li>
+                            <% blogs = Blog.all.to_a %>
+                            <% blogs -= [@blog] %>
+                            <% blogs.each do |blog| %>
+                                <li>
+                                    <%= link_to blog.title, blog %>
+                                </li>
+                            <% end %>
                         </ul>
                     </div>
-                    <div class="col-lg-6">
-                        <ul class="list-unstyled">
-                            <li><a href="#">Category Name</a>
-                            </li>
-                            <li><a href="#">Category Name</a>
-                            </li>
-                            <li><a href="#">Category Name</a>
-                            </li>
-                            <li><a href="#">Category Name</a>
-                            </li>
-                        </ul>
-                    </div>
+             
                 </div>
-            </div> -->
+            </div>
 
             <!-- Side Widget Well -->
              <div class="well about-well">
