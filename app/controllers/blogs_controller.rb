@@ -22,13 +22,11 @@ class BlogsController < ApplicationController
 
   def create
   	if current_admin
-  		binding.pry
   		@blog = Blog.new(title: params["blog"]['title'], html: params['blog']['html'], pic_url: params['blog']['pic_url'])
   		if @blog.save
-  			binding.pry
 	  		redirect_to blogs_path
 	  	else
-	  		redirect_to new_blogs_path
+	  		redirect_to new_blog_path, flash: {errors: @blog.errors.full_messages}
 	  	end
   	else
   		redirect_to root_path
