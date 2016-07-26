@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
 
   devise_for :admins
-  get 'blogs' => 'blogs#index', as: :blogs
-
-  get 'blogs/:id' => 'blogs#show'
 
   root 'page#home'
 
+  get 'blogs' => 'blogs#index', as: :blogs
+  get 'blogs/new' => 'blogs#new'
+  get 'blogs/:id' => 'blogs#show'
+  post 'blogs/create' => 'blogs#create'
 
 
 

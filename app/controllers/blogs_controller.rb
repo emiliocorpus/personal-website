@@ -13,11 +13,20 @@ class BlogsController < ApplicationController
   end
 
   def new
-
+  	if current_admin
+  		@blog = Blog.new
+  	else
+  		redirect_to blogs_path
+  	end
   end
 
-  def submit_post
+  def create
+  	if current_admin
+  		binding.pry
 
+  		redirect_to blogs_path
+  	else
+  		redirect_to root_path
+  	end
   end
-
 end

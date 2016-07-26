@@ -21,3 +21,19 @@ img.blogs-about-pic {
 	height:125px;
 }
 
+
+div.new-blog-container {
+	display:table;
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	margin-top:100px;
+}
+
+div.new-blog {
+	display:table-cell;
+	vertical-align:middle;
+	margin: 0 auto;
+	text-align:center;
+
+}

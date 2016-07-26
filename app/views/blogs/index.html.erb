@@ -137,6 +137,16 @@
         </div>
 
     </div>
+
+
+    <% if current_admin %>
+        <%= link_to 'Create Blog', blogs_new_path %>
+
+    <% end %>
+
+
+
+
     <!-- /.row -->
     <%= render 'partials/footer' %>
 

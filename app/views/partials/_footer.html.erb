@@ -3,6 +3,16 @@
 		&copy; All rights reserved <br/>
 		Want to work with me? <br/>
 		Contact<br/>
-		<a href="mailto:emiliocorpus@gmail.com">emiliocorpus@gmail.com</a> | <a href='https://github.com/emiliocorpus'>github</a> | <a href="https://www.linkedin.com/in/emiliocorpus">linkedin</a>
+		<a href="mailto:emiliocorpus@gmail.com">emiliocorpus@gmail.com</a> | <a href='https://github.com/emiliocorpus'>github</a> | <a href="https://www.linkedin.com/in/emiliocorpus">linkedin</a><br/><br/>
+
+
+		<% if !current_admin %>
+			<%= link_to 'Sign In', new_admin_session_path %>
+		<% else %>
+			<%= link_to 'Sign Out', destroy_admin_session_path %>
+		<% end %>
+
+
+
 	</div>
 </div>
