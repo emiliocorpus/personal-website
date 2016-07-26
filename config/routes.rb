@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'blogs' => 'blogs#index', as: :blogs
+
+  get 'blogs/:id' => 'blogs#show'
+
   root 'page#home'
 
-  get 'blogs' => 'page#blogs', as: :blogs
 
 
 
