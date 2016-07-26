@@ -14,7 +14,6 @@ class BlogsController < ApplicationController
 
   def new
   	if current_admin
-  		@blog = Blog.new
   	else
   		redirect_to blogs_path
   	end
