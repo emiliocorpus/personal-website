@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :admins
   get 'blogs' => 'blogs#index', as: :blogs
 
   get 'blogs/:id' => 'blogs#show'
