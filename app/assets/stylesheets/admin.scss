@@ -1,0 +1,20 @@
+
+div.admin-login-container {
+	display:table;
+	height:500px;
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	margin-top:100px;
+}
+div.admin-login {
+	display:table-cell;
+	padding:3%;
+	margin:0 auto;
+	vertical-align:middle;
+	text-align:left;
+}
+div.admin-login div:first-child {
+	margin:0 auto;
+	width:210px;
+}
