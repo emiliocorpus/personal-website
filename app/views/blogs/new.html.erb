@@ -6,17 +6,17 @@
 
 			<h2>New Blog</h2>
 
-		<!-- 	<% if flash[:errors] %>	
+			<% if flash[:errors] %>	
 				<% flash[:errors].each do |err| %>
 					<p class="error">
 						<%= err %>
 					</p>
 				<% end %>
-			<% end %> -->
+			<% end %>
 
 
 
-			<%= form_for @blog, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+			<%= form_for blog, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
 
 			  <%= f.label :title %><br/>
 			  <%= f.text_field :title %><br/><br/>
