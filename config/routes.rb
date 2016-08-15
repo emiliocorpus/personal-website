@@ -10,9 +10,6 @@ Rails.application.routes.draw do
   post 'blogs/create' => 'blogs#create'
 
 
-
-  get 'portfolio/guess-that-word' => 'snowman#index'
-  get 'portfolio/snowman/word/retrieve' => 'snowman#retrieve'
   get 'portfolio/battleship' => 'battleship#index'
 
 
