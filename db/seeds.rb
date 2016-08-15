@@ -9,9 +9,9 @@
 	
 	Project.create(name: "Battleship", description:"Made with React.js and Ruby on Rails. This game was created to further understand how to build a fully functional single-page appliction via React.js. ", url: "/portfolio/battleship", picture_url: "battleship-screenshot.png", github_url:"https://github.com/emiliocorpus/battleship-react-ror")
 
-	Project.create(name: "Twenty-Four", description: "Another single page application made with React.js and RoR. Built to better understand the underlying technologies, the application also allowed me to implement specific strategies towards devising the game logic.", url: 'https://twenty-four-on-react.herokuapp.com', picture_url: "twenty-four-screenshot.png", github_url: "https://github.com/emiliocorpus/twenty-four")
+	Project.create(name: "Twenty-Four", description: "Another single page application made with React.js and RoR. Built to better understand the underlying technologies, this application also allowed me to implement specific strategies towards devising the game logic.", url: 'https://twenty-four-on-react.herokuapp.com', picture_url: "twenty-four-screenshot.png", github_url: "https://github.com/emiliocorpus/twenty-four")
 
-	Project.create(name: 'AC DC Stats', description: "Constructed with React.js and RoR. This single page application scrapes NFL.com to gather data on Amari Cooper and Derek Carr. As an avid Oakland Raider fan, I thought it would be cool to apply my web dev skills and make a site the documents their progress.", url: "https://acdcstats.herokuapp.com/", picture_url:"acdc-screenshot.png", github_url:"https://github.com/emiliocorpus/acdctds")
+	Project.create(name: 'AC DC Stats', description: "Constructed with React.js and RoR. This single page application scrapes NFL.com to gather data on Amari Cooper and Derek Carr. As an avid Oakland Raider fan, I thought it would be cool to apply my web dev skills and make a site that documents their progress.", url: "https://acdcstats.herokuapp.com/", picture_url:"acdc-screenshot.png", github_url:"https://github.com/emiliocorpus/acdctds")
 	
 
 
