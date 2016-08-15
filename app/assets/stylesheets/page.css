@@ -258,8 +258,16 @@ hr {
   text-align:center;
 }
 .project-link {
-  text-decoration:underline;
+  text-decoration:none;
   color:blue;
+}
+
+img.pic-link-icon {
+  width: 30px;
+}
+
+img.pic-link-icon:hover {
+  width: 35px;
 }
 .project-link:hover {
   color:green;

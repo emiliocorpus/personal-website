@@ -45,15 +45,9 @@ ActiveRecord::Schema.define(version: 20160726164924) do
     t.text     "description"
     t.string   "url"
     t.string   "picture_url"
+    t.string   "github_url"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
-  end
-
-  create_table "words", force: :cascade do |t|
-    t.string   "word"
-    t.string   "category"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
 end

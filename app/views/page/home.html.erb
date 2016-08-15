@@ -98,7 +98,8 @@
 				</p>
 				<hr />
 				<p class="project-link">
-					<a href=<%= project.url %>>View Project</a>
+					<a href=<%= project.url %>><%= image_tag('computer-icon.png', class: "pic-link-icon") %></a>&nbsp;
+					<a href=<%= project.github_url %>><%= image_tag('logo_github_small.gif', class: "pic-link-icon") %></a>
 				</p>
 			</div>
 			<%end %>
