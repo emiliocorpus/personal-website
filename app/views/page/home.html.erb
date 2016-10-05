@@ -5,8 +5,8 @@
 		<div id="welcome-splash" class="hidden">
 			<h2>Full-Stack Web Developer</h2>
 			<h2>Bay Area Native</h2>
-			<h2>Lifelong Learner</h2>
-			<h2>Adventure Seeker</h2>
+			<h2>Amateur Ukulele Player</h2>
+			<h2>Self-Starter</h2>
 		</div>
 		<div class="arrow-link-container hidden">
 			<a href="#about-me" class="arrow-links" data-target="about-me">
@@ -33,13 +33,13 @@
 			</p>
 		</div>
 		<div style="width:100%;text-align:center;">
-			<a href="https://www.linkedin.com/in/emiliocorpus" class="more-about-link">
+			<a href="https://www.linkedin.com/in/emiliocorpus" class="more-about-link" title="LinkedIn">
 				<img src="assets/linkedin-icon.png" class="sn-icon"/>
 			</a>
-			<a href="https://github.com/emiliocorpus" class="more-about-link">
+			<a href="https://github.com/emiliocorpus" class="more-about-link" title="Github">
 				<img src="assets/Octocat.png" class="sn-icon"/>
 			</a>
-			<a href="/assets/resume.pdf" class="more-about-link">
+			<a href="/assets/resume.pdf" class="more-about-link" title="Résumé">
 				<img src="assets/resume-icon.png" class="sn-icon"/>
 			</a>
 		</div>
@@ -58,11 +58,11 @@
 
 		<div id="more-about-me">
 			<p id="about-emilio-full">
-			Emilio is a full stack web developer who is interested in designing/creating applications to help improve the world around him. He is currently seeking full-time employment and is looking for any position that will allow him to grow and expand his current technical capacities. He is mostly experienced with Ruby on Rails and React.js.
+			Emilio is a full stack web developer who is interested in designing/creating applications to help improve the world around him. He is mostly experienced with Ruby on Rails and React.js.
 			<br/><br/>
 			Prior to his interest in web development, Emilio attended UC Irvine where he received his bachelor’s in Biological Sciences. For several years after college, Emilio worked as an emergency room scribe where he gained much insight of the lives of healthcare providers. However, after learning a career in healthcare was not for him, he decided to look toward another passion.
 			<br/> <br/>
-			Emilio completed DevBootcamp’s web development program in fall of 2015. There he acquired more skills and experience in web development and today uses his knowledge to devise various Ruby on Rails applications. Being fairly new to the web development community, Emilio prides himself in learning new technologies on the fly and considers himself an efficient problem solver. He currently finds great joy in using React.js and employs this technology in many of his passion projects.
+			Emilio completed DevBootcamp’s web development program in fall of 2015. There he acquired more experience in web development and today uses his knowledge to devise various Ruby on Rails applications. Being fairly new to the web development community, Emilio prides himself in learning new technologies on the fly and considers himself an efficient problem solver. He currently finds great joy in using React.js and employs this technology in many of his passion projects.
 			<br/> <br/>
 			Outside of the matrix, Emilio loves going on hikes, playing basketball with friends, and traveling to the unknown. He is an Oakland Raiders die-hard fan, amateur ukulele musician, and board game enthusiast.</p>
 		</div>
@@ -98,8 +98,8 @@
 				</p>
 				<hr />
 				<p class="project-link">
-					<a href=<%= project.url %>><%= image_tag('computer-icon.png', class: "pic-link-icon") %></a>&nbsp;
-					<a href=<%= project.github_url %>><%= image_tag('logo_github_small.gif', class: "pic-link-icon") %></a>
+					<a title="Project" href=<%= project.url %>><%= image_tag('computer-icon.png', class: "pic-link-icon") %></a>&nbsp;
+					<a title="Github Repo"href=<%= project.github_url %>><%= image_tag('logo_github_small.gif', class: "pic-link-icon") %></a>
 				</p>
 			</div>
 			<%end %>

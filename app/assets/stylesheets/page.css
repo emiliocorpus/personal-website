@@ -36,14 +36,14 @@ body {
 }
 .nav.navbar-nav.navbar-right li a:hover {
     background-color:black;
-    color:#ABE148;
+    color:#79A5E2;
 }
 .navbar-fixed-top .navbar-header a, .navbar-default .navbar-header a  {
-  color:#ABE148;
+  color:#79A5E2;
   font-style: cursive;
 }
 .navbar-fixed-top .navbar-header a:hover, .navbar-default .navbar-header a:hover  {
-  color:#ABE148;
+  color:white;
   font-style: cursive;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 /*----------------- PAGE DIVIDERS AND CONTAINS ------------------*/
 .upper-body-container {
-  background: url('stoop.jpg') no-repeat center center fixed; 
+  background: url('stoop-two.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -92,7 +92,7 @@ body {
   text-align:center;
 }
 .lower-mid-body-container {
-  background: url('cage-library.jpg') no-repeat center center fixed; 
+  background: url('houses.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -102,7 +102,7 @@ body {
   height:100%;
 }
 .lower-body-container {
-  background: url('hangman.jpg') no-repeat center center fixed; 
+  background: url('stoop.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -118,8 +118,9 @@ body {
   text-align:center;
   margin:0 auto;
   width:100%;
-  height:70px;
-  display:table;
+  height:90px;
+  display: table;
+  vertical-align: middle;
 }
 hr {
   display: block;
@@ -133,6 +134,7 @@ hr {
   color:white;
   display:table-cell;
   text-align:center;
+  vertical-align: middle;
 }
 .arrow-link-container {
   position:absolute;
@@ -494,7 +496,7 @@ img.pic-link-icon:hover {
           height:30px;
         }
     .upper-body-container {
-      background: url('stoop.jpg') no-repeat center center scroll; 
+      background: url('stoop-two.jpg') no-repeat center center scroll; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -512,7 +514,7 @@ img.pic-link-icon:hover {
       padding-top:2%;
     }
     .lower-mid-body-container {
-      background: url('cage-library.jpg') no-repeat center center scroll; 
+      background: url('houses.jpg') no-repeat center center scroll; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -521,7 +523,7 @@ img.pic-link-icon:hover {
       width:100%;
     }
     .lower-body-container {
-      background: url('hangman.jpg') no-repeat center center scroll; 
+      background: url('stoop.jpg') no-repeat center center scroll; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -559,7 +561,7 @@ img.pic-link-icon:hover {
           height:30px;
         }
     .upper-body-container {
-      background: url('stoop.jpg') no-repeat center center scroll; 
+      background: url('stoop-two.jpg') no-repeat center center scroll; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -577,7 +579,7 @@ img.pic-link-icon:hover {
       padding-top:2%;
     }
     .lower-mid-body-container {
-      background: url('cage-library.jpg') no-repeat center center scroll; 
+      background: url('houses.jpg') no-repeat center center scroll; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -586,7 +588,7 @@ img.pic-link-icon:hover {
       width:100%;
     }
     .lower-body-container {
-      background: url('hangman.jpg') no-repeat center center scroll; 
+      background: url('stoop.jpg') no-repeat center center scroll; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -624,7 +626,7 @@ img.pic-link-icon:hover {
           height:30px;
         }
         .upper-body-container {
-          background: url('stoop.jpg') no-repeat center center scroll; 
+          background: url('stoop-two.jpg') no-repeat center center scroll; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -642,7 +644,7 @@ img.pic-link-icon:hover {
           padding-top:2%;
         }
         .lower-mid-body-container {
-          background: url('cage-library.jpg') no-repeat center center scroll; 
+          background: url('houses.jpg') no-repeat center center scroll; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -651,7 +653,7 @@ img.pic-link-icon:hover {
           width:100%;
         }
         .lower-body-container {
-          background: url('hangman.jpg') no-repeat center center scroll; 
+          background: url('stoop.jpg') no-repeat center center scroll; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -714,7 +716,7 @@ img.pic-link-icon:hover {
         display:none !important;
       }
       .upper-body-container {
-        background: url('stoop.jpg') no-repeat center center scroll; 
+        background: url('stoop-two.jpg') no-repeat center center scroll; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -732,7 +734,7 @@ img.pic-link-icon:hover {
         padding-top:2%;
       }
       .lower-mid-body-container {
-        background: url('cage-library.jpg') no-repeat center center scroll; 
+        background: url('houses.jpg') no-repeat center center scroll; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -741,7 +743,7 @@ img.pic-link-icon:hover {
         width:100%;
       }
       .lower-body-container {
-        background: url('hangman.jpg') no-repeat center center scroll; 
+        background: url('stoop.jpg') no-repeat center center scroll; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -804,7 +806,7 @@ img.pic-link-icon:hover {
           display:none !important;
         }
         .upper-body-container {
-          background: url('stoop.jpg') no-repeat center center scroll; 
+          background: url('stoop-two.jpg') no-repeat center center scroll; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -822,7 +824,7 @@ img.pic-link-icon:hover {
           padding-top:2%;
         }
         .lower-mid-body-container {
-          background: url('cage-library.jpg') no-repeat center center scroll; 
+          background: url('houses.jpg') no-repeat center center scroll; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -831,7 +833,7 @@ img.pic-link-icon:hover {
           width:100%;
         }
         .lower-body-container {
-          background: url('hangman.jpg') no-repeat center center scroll; 
+          background: url('stoop.jpg') no-repeat center center scroll; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -892,7 +894,7 @@ img.pic-link-icon:hover {
           display:none !important;
         }
         .upper-body-container {
-          background: url('stoop.jpg') no-repeat center center scroll; 
+          background: url('stoop-two.jpg') no-repeat center center scroll; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -910,7 +912,7 @@ img.pic-link-icon:hover {
           padding-top:2%;
         }
         .lower-mid-body-container {
-          background: url('cage-library.jpg') no-repeat center center scroll; 
+          background: url('houses.jpg') no-repeat center center scroll; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -919,7 +921,7 @@ img.pic-link-icon:hover {
           width:100%;
         }
         .lower-body-container {
-          background: url('hangman.jpg') no-repeat center center scroll; 
+          background: url('stoop.jpg') no-repeat center center scroll; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -969,7 +971,7 @@ img.pic-link-icon:hover {
           height:30px;
         }
       .upper-body-container {
-        background: url('stoop.jpg') no-repeat center center scroll; 
+        background: url('stoop-two.jpg') no-repeat center center scroll; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -987,7 +989,7 @@ img.pic-link-icon:hover {
         padding-top:2%;
       }
       .lower-mid-body-container {
-        background: url('cage-library.jpg') no-repeat center center scroll; 
+        background: url('houses.jpg') no-repeat center center scroll; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -996,7 +998,7 @@ img.pic-link-icon:hover {
         width:100%;
       }
       .lower-body-container {
-        background: url('hangman.jpg') no-repeat center center scroll; 
+        background: url('stoop.jpg') no-repeat center center scroll; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1025,7 +1027,7 @@ img.pic-link-icon:hover {
           height:30px;
         }
       .upper-body-container {
-        background: url('stoop.jpg') no-repeat center center scroll; 
+        background: url('stoop-two.jpg') no-repeat center center scroll; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1043,7 +1045,7 @@ img.pic-link-icon:hover {
         padding-top:2%;
       }
       .lower-mid-body-container {
-        background: url('cage-library.jpg') no-repeat center center scroll; 
+        background: url('houses.jpg') no-repeat center center scroll; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1052,7 +1054,7 @@ img.pic-link-icon:hover {
         width:100%;
       }
       .lower-body-container {
-        background: url('hangman.jpg') no-repeat center center scroll; 
+        background: url('stoop.jpg') no-repeat center center scroll; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
